@@ -1,0 +1,31 @@
+[
+    {
+        "id": 62970982128,
+        "resource_state": 2,
+        "name": "Lap 1",
+        "activity": {
+            "id": 17617980470,
+            "visibility": "only_me",
+            "resource_state": 1
+        },
+        "athlete": {
+            "id": 7234893,
+            "resource_state": 1
+        },
+        "elapsed_time": 2832,
+        "moving_time": 2831,
+        "start_date": "2026-03-05T20:24:57Z",
+        "start_date_local": "2026-03-05T17:24:57Z",
+        "distance": 0.0,
+        "average_speed": 0.0,
+        "max_speed": 0.0,
+        "lap_index": 1,
+        "split": 1,
+        "start_index": 0,
+        "end_index": 2781,
+        "total_elevation_gain": 0,
+        "device_watts": false,
+        "average_heartrate": 97.5,
+        "max_heartrate": 134.0
+    }
+]

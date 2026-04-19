@@ -1,6 +1,6 @@
 ---
 title: "Plan Semanal: Vuelta a la Carga (Semana 17)"
-date: 2026-04-20
+date: 2026-04-19
 categories: ["Planes Semanales"]
 tags: ["Semana 17", "Carga", "Ultra"]
 type: "post"

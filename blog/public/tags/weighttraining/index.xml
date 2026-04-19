@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>WeightTraining on Rumbo a Nono 60k - Blog de Entrenamiento</title>
+    <link>http://localhost:1313/tags/weighttraining/</link>
+    <description>Recent content in WeightTraining on Rumbo a Nono 60k - Blog de Entrenamiento</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/weighttraining/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entrenamiento con pesas vespertino</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-09_18046922894/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-09_18046922894/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 64:29&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+  &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+  &lt;script src=&#34;https://unpkg.com/leaflet-gpx@2.1.2/gpx.min.js&#34;&gt;&lt;/script&gt;
+
+  &lt;div id=&#34;map-1776388198043780075&#34; style=&#34;height: 500px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
+      var map = L.map(&#39;map-1776388198043780075&#39;);
+      
+      L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+        attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors&#39;
+      }).addTo(map);
+
+      var gpx = &#34;\/entrenamientos\/2026-04-09_18046922894\/activity.gpx&#34;;
+      new L.GPX(gpx, {
+        async: true,
+        marker_options: {
+          startIconUrl: &#39;https://unpkg.com/leaflet-gpx@2.1.2/pin-icon-start.png&#39;,
+          endIconUrl: &#39;https://unpkg.com/leaflet-gpx@2.1.2/pin-icon-end.png&#39;,
+          shadowUrl: &#39;https://unpkg.com/leaflet-gpx@2.1.2/pin-shadow.png&#39;
+        }
+      }).on(&#39;loaded&#39;, function(e) {
+        map.fitBounds(e.target.getBounds());
+      }).addTo(map);
+    });
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+---
+title: "Pasadita 2.5km aprox"
+date: 2026-03-04
+categories: ["Entrenamiento"]
+tags: ["Run", "Strava"]
+strava_id: 17607268228
+---
+
+## 📊 Estadísticas Clave
+- **Distancia:** 7.79 km
+- **Desnivel Positivo:** 540.2 m 🏔️
+- **Tiempo en movimiento:** 62:49
+- **Tipo de actividad:** Run
+
+
+## 🗺️ Mapa y Recorrido
+{{< gpx "activity.gpx" >}}
+
+
+## ⏱️ Vueltas (Laps)
+| Lap | Distancia | Tiempo | Ritmo | FC Med |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | 1.0 km | 7:35 | 7:35 | 140.7 |
+| 2 | 1.0 km | 9:30 | 9:30 | 172.2 |
+| 3 | 1.0 km | 5:31 | 5:31 | 162.8 |
+| 4 | 0.04 km | 0:12 | 5:00 | 160.3 |
+| 5 | 1.0 km | 10:06 | 10:06 | 165.6 |
+| 6 | 1.0 km | 7:43 | 7:43 | 169.2 |
+| 7 | 0.46 km | 2:21 | 5:06 | 156.9 |
+| 8 | 1.0 km | 10:23 | 10:23 | 165.4 |
+| 9 | 1.0 km | 7:29 | 7:29 | 169.1 |
+| 10 | 0.35 km | 1:59 | 5:40 | 158.4 |
+
+
+
+---
+*Generado automáticamente vía API de Strava.*

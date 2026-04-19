@@ -1,0 +1,32 @@
+---
+title: "Aerobico"
+date: 2026-04-08
+categories: ["Entrenamiento"]
+tags: ["Run", "Strava"]
+strava_id: 18034226805
+---
+
+## 📊 Estadísticas Clave
+- **Distancia:** 4.91 km
+- **Desnivel Positivo:** 344.0 m 🏔️
+- **Tiempo en movimiento:** 52:12
+- **Tipo de actividad:** Run
+
+
+## 🗺️ Mapa y Recorrido
+{{< gpx "activity.gpx" >}}
+
+
+## ⏱️ Vueltas (Laps)
+| Lap | Distancia | Tiempo | Ritmo | FC Med |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | 1.0 km | 9:57 | 9:57 | 116.5 |
+| 2 | 1.0 km | 13:05 | 13:05 | 144.4 |
+| 3 | 1.0 km | 9:33 | 9:33 | 148.3 |
+| 4 | 1.0 km | 11:49 | 11:49 | 148.1 |
+| 5 | 0.97 km | 16:54 | 17:25 | 154.9 |
+
+
+
+---
+*Generado automáticamente vía API de Strava.*

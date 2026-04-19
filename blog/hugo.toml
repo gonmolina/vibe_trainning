@@ -1,0 +1,29 @@
+baseURL = 'https://gonmolina.github.io/vibe_trainning/'
+languageCode = 'es-es'
+title = 'Rumbo a Nono 60k - Blog de Entrenamiento'
+theme = 'PaperMod'
+
+[params]
+  env = 'development'
+  title = 'Rumbo a Nono 60k'
+  description = 'Seguimiento del plan de entrenamiento para los 60km de Nono.'
+  ShowCodeCopyButtons = true
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  defaultTheme = 'auto'
+  
+  [params.homeInfoParams]
+    Title = "Rumbo a Nono 60k 🏔️"
+    Content = "Blog de seguimiento para los 60km (Champa Ultra Race) de Nono, Córdoba. Planes semanales, entrenamientos de Strava y análisis de forma física."
+
+[menu]
+  [[menu.main]]
+    name = "Entrenamientos"
+    url = "entrenamientos"
+    weight = 10
+  [[menu.main]]
+    name = "Planes"
+    url = "planes"
+    weight = 20

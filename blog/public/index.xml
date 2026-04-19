@@ -1,0 +1,2721 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rumbo a Nono 60k - Blog de Entrenamiento</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Rumbo a Nono 60k - Blog de Entrenamiento</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plan de Entrenamiento Ultra: Rumbo a los 60km</title>
+      <link>http://localhost:1313/planes/plan-maestro-60k/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/planes/plan-maestro-60k/</guid>
+      <description>&lt;h1 id=&#34;plan-de-entrenamiento-ultra-rumbo-a-los-60km-11-de-julio-2026&#34;&gt;Plan de Entrenamiento Ultra: Rumbo a los 60km (11 de Julio 2026)&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Atleta:&lt;/strong&gt; 45 años | 75 kg
+&lt;strong&gt;Objetivo Principal:&lt;/strong&gt; 60 km con 2400m D+ (Champa Ultra Race / Nono)
+&lt;strong&gt;Fecha de Carrera:&lt;/strong&gt; Sábado 11 de Julio de 2026
+&lt;strong&gt;Tiempo Restante:&lt;/strong&gt; 12 Semanas (Desde el 13 de Abril)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-estado-actual-y-enfoque-del-plan&#34;&gt;🏔️ Estado Actual y Enfoque del Plan&lt;/h2&gt;
+&lt;p&gt;Tras la carrera de 25km (4 de abril) y el masivo fin de semana en López/Laguna Negra (48km y +2400m D+ entre el 11 y 12 de abril), tu &lt;strong&gt;base aeróbica y resistencia al desnivel están en niveles de élite amateur&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Torrez en modo aeróbico</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-15_18125508866/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-15_18125508866/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 5.79 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 814.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 87:29&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399558121887&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399558121887&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-04-15_18125508866\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10:48&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10:48&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;120.6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;20:38&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;20:38&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;151.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16:49&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16:49&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;149.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14:10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14:10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;128.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;17:24&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;17:24&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;149.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:22&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:22&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;130.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.01 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:20&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;422:13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;137.0&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cambios de ritmo</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-13_18097833073/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-13_18097833073/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 8.92 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 37.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 50:44&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399558696319&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399558696319&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-04-13_18097833073\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2.13 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14:07&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:37&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;136.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.8 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:23&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;127.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.39 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2:25&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;145.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.8 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:24&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:15&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;144.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.4 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:30&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;142.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.8 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:23&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;153.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.4 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2:37&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:32&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;151.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.79 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:28&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:23&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;152.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.4 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2:34&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:25&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;155.6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.79 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:29&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:24&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;156.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.4 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2:59&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:27&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;150.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.8 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:50&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:17&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;137.8&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Plan Semanal: Construcción de Base Ultra (Semana 16)</title>
+      <link>http://localhost:1313/planes/semana-16/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/planes/semana-16/</guid>
+      <description>&lt;h1 id=&#34;plan-semanal-construcción-de-base-ultra-13---19-de-abril-2026&#34;&gt;Plan Semanal: Construcción de Base Ultra (13 - 19 de Abril 2026)&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Objetivo de la semana:&lt;/strong&gt; Asimilación del gran volumen del fin de semana pasado (+2400m D+) y construcción de resistencia de base (Time on Feet).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-cronograma-diario&#34;&gt;📅 Cronograma Diario&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Día&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Entrenamiento 🏃‍♂️&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Foco &amp;ldquo;Objetivo 60k&amp;rdquo; 🎯&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Lunes 13/04&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Cambios de ritmo:&lt;/strong&gt; 9km (5x800m).&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Realizado.&lt;/strong&gt; Ritmos de 4:13-4:24. Fatiga lógica detectada.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Martes 14/04&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Gimnasio:&lt;/strong&gt; Tren superior (Tranquilo).&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Realizado.&lt;/strong&gt; Descanso activo de piernas.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Miércoles 15/04&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Trote Regenerativo:&lt;/strong&gt; 45-50 min (Z1).&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Recuperación:&lt;/strong&gt; Flujo sanguíneo en llano. Muy suave.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Jueves 16/04&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Fuerza y Estabilidad:&lt;/strong&gt; Isométricos y CORE.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Tobillos:&lt;/strong&gt; 3x1 min equilibrios a una pierna + Estabilidad.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Viernes 17/04&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Descanso Total.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Frescura:&lt;/strong&gt; Llegar con &amp;ldquo;hambre de cerro&amp;rdquo; al sábado.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Sábado 18/04&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Fondo Largo:&lt;/strong&gt; 4h 30m (Desnivel moderado).&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Resistencia:&lt;/strong&gt; Volumen puro. Ritmo cómodo y constante. Test de nutrición.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Domingo 19/04&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Descanso Activo / Caminata.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Asimilación:&lt;/strong&gt; Evaluar recuperación del volumen semanal.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-estrategia-de-la-semana&#34;&gt;🚀 Estrategia de la Semana&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Supercompensación:&lt;/strong&gt; El entrenamiento del López (6h 50m) y el Dominguero (23k) fueron estímulos masivos. Esta semana es para que el cuerpo &amp;ldquo;absorba&amp;rdquo; ese trabajo. No busques récords en los trotes entre semana.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Volumen vs. Intensidad:&lt;/strong&gt; El sábado buscamos &lt;strong&gt;tiempo en pies&lt;/strong&gt;. No importa si el desnivel es menor, lo que importa es que el cuerpo se acostumbre a estar 4h 30m en movimiento.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gestión de Sales:&lt;/strong&gt; Dado tu perfil de alta sudoración, el fondo del sábado es una oportunidad crítica para ajustar los mg de sodio por hora.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-pautas-clave&#34;&gt;💡 Pautas Clave&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Escucha la fatiga:&lt;/strong&gt; Si el miércoles sentís las piernas pesadas, caminá los tramos que haga falta. El objetivo es regenerar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Calzado:&lt;/strong&gt; Seguí usando el material de confianza de la carrera del 4 de abril.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Propiocepción:&lt;/strong&gt; No saltees la sesión del jueves; los tobillos estables son tu seguro de vida para los 60km.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Nota: Semana de transición hacia el gran bloque de mayo. La constancia y la paciencia son tus mejores aliados hoy.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fondo Dominguero</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-12_18084751627/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-12_18084751627/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 23.46 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 819.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 177:27&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399559110470&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399559110470&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-04-12_18084751627\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9.64 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;67:35&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;143.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2.89 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;34:56&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12:05&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;145.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11.04 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;74:55&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:47&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;143.8&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;-fotos&#34;&gt;📸 Fotos&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Foto&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/entrenamientos/2026-04-12_18084751627/photo_0.jpg&#34;&gt;
+&lt;img alt=&#34;Foto&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/entrenamientos/2026-04-12_18084751627/photo_1.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>López Laguna negra (CORREGIDO)</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-11_18073235853/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-11_18073235853/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave-manual&#34;&gt;📊 Estadísticas Clave (Manual)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 24.5 km (Corregido de 11.85 km)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 1600.0 m 🏔️ (Corregido de 1691.0 m)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo Total (Elapsed):&lt;/strong&gt; 6:50:00 (Incluyendo descansos largos)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-nota-del-entrenador-se-realizó-una-corrección-manual-de-este-entrenamiento-ya-que-el-reloj-se-apagó-los-datos-de-1185-km-eran-incompletos-el-mapa-a-continuación-solo-muestra-la-parte-registrada&#34;&gt;&lt;strong&gt;⚠️ Nota del Entrenador:&lt;/strong&gt; Se realizó una corrección manual de este entrenamiento ya que el reloj se apagó. Los datos de 11.85 km eran incompletos. El mapa a continuación solo muestra la parte registrada.&lt;/h2&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399559483252&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399559483252&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-04-11_18073235853\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9.96 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;231:43&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;23:15&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;145.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:04&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.41 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:22&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;17:58&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;112.3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.84 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;17:25&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;20:44&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;133.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.05 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:50&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;36:40&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.52 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11:30&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;22:06&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;97.4&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aeróbico</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-09_18047459519/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-09_18047459519/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 8.73 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 146.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 53:50&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399559893084&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399559893084&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-04-09_18047459519\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:44&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:44&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;142.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:21&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:21&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;158.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:57&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:57&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;158.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:42&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:42&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;159.3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;154.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;159.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:51&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:51&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;154.6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:33&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:33&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;152.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.74 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:47&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:26&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;151.0&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entrenamiento con pesas vespertino</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-09_18046922894/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-09_18046922894/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 64:29&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
+
+  &lt;div id=&#34;map-1776388399547873870&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399547873870&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-04-09_18046922894\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aerobico</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-08_18034226805/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-08_18034226805/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 4.91 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 344.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 52:12&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399560224178&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399560224178&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-04-08_18034226805\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9:57&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9:57&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;116.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13:05&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13:05&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;144.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9:33&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9:33&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;148.3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11:49&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11:49&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;148.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.97 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16:54&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;17:25&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;154.9&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rege II</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-06_18006118604/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-06_18006118604/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 7.02 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 22.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 49:57&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399560605406&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399560605406&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-04-06_18006118604\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:04&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:04&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;154.6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:54&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:54&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;165.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;167.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;166.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:02&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:02&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;147.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:19&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:19&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;132.3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;132.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.03 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:18&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10:20&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;131.5&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Regenerativo</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-05_17992145813/</link>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-05_17992145813/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 10.25 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 107.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 71:17&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399561076283&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399561076283&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-04-05_17992145813\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:04&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:04&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;113.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:16&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:16&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;127.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:58&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:58&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;128.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:18&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:18&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;130.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:35&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:35&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;128.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:46&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:46&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;130.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:57&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:57&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;133.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:55&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:55&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;136.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:46&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:46&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;128.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:53&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:53&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;133.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.27 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2:05&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:36&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;136.5&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Travesía de los cerros 22km</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-04_17976233107/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-04_17976233107/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 22.03 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 1749.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 229:47&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399561837177&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399561837177&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-04-04_17976233107\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:19&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:19&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;128.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:09&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:09&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;143.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11:33&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11:33&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;137.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;15:15&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;15:15&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;112.6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12:26&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12:26&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;111.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;109.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16:18&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16:18&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;126.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12:33&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12:33&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;115.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:14&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:14&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;120.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:25&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:25&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;128.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:54&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:54&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;136.3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:04&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:04&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;133.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:32&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:32&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;128.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13:45&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13:45&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;111.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;15&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16:30&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16:30&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;116.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14:51&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14:51&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;110.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;17&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13:57&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13:57&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;120.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;18&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9:25&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9:25&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;123.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;19&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:15&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:15&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;125.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;20&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;130.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;21&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:07&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:07&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;130.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;22&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;138.3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;23&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.52 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:14&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;146.6&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aeróbico</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-01_17943820679/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-01_17943820679/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 6.99 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 171.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 50:39&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399562366454&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399562366454&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-04-01_17943820679\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5.95 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;41:27&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:57&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;146.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:06&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.09 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:21&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:53&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;118.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.13 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:38&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12:33&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;112.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.1 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:32&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:20&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;113.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.13 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:27&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11:09&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;107.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.09 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:21&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:53&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;111.6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.14 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:46&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12:37&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;119.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.09 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:18&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:20&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;107.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.01 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:40&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;109.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.07 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14:17&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;109.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.08 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:37&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;20:12&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;111.4&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Activaciones pre carrera</title>
+      <link>http://localhost:1313/entrenamientos/2026-03-30_17918458653/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-03-30_17918458653/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 9.02 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 188.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 54:47&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399562981182&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399562981182&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-03-30_17918458653\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3.21 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;20:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:14&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;144.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.27 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:42&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;155.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.16 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:59&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:08&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;155.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.28 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:34&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;153.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.17 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:59&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:47&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;158.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.3 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:02&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:26&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;155.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.14 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:57&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:47&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;152.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.3 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:23&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;147.3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.14 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:59&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;144.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.27 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:45&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;141.6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.12 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:58&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:03&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;141.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3.25 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;22:07&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:48&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;144.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.05 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:14&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:40&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;130.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.12 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:06&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9:10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;129.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;15&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.05 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:12&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;133.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.11 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:05&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9:50&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;129.2&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aeróbico</title>
+      <link>http://localhost:1313/entrenamientos/2026-03-28_17891010863/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-03-28_17891010863/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 16.91 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 346.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 120:31&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399563700687&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399563700687&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-03-28_17891010863\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:49&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:49&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;103.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:33&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:33&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;119.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:49&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:49&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;150.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:17&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:17&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;162.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:38&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:38&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;166.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:05&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:05&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;166.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:45&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:45&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;158.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:40&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:40&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;157.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:57&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:57&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;156.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:20&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:20&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;151.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:32&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:32&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;161.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;162.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:32&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:32&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;162.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;165.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;15&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:20&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:20&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;162.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:19&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:19&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;158.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;17&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.89 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11:16&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12:42&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;161.6&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;-fotos&#34;&gt;📸 Fotos&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Foto&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/entrenamientos/2026-03-28_17891010863/photo_0.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Subí baja</title>
+      <link>http://localhost:1313/entrenamientos/2026-03-25_17859667547/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-03-25_17859667547/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 3.44 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 323.8 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 48:15&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399564008578&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399564008578&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-03-25_17859667547\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14:23&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14:23&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;101.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13:21&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13:21&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;138.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.59 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;28:39&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;48:38&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;168.8&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aeróbico</title>
+      <link>http://localhost:1313/entrenamientos/2026-03-23_17834245720/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-03-23_17834245720/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 13.04 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 156.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 79:07&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
+
+  &lt;div id=&#34;map-1776388399547945596&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399547945596&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-03-23_17834245720\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fondo Otto</title>
+      <link>http://localhost:1313/entrenamientos/2026-03-21_17805167155/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-03-21_17805167155/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 20.17 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 1445.4 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 190:46&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
+
+  &lt;div id=&#34;map-1776388399547818717&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399547818717&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-03-21_17805167155\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cambios de ritmo en el Otto</title>
+      <link>http://localhost:1313/entrenamientos/2026-03-19_17785679159/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-03-19_17785679159/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 15.25 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 555.8 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 92:27&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399564521424&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399564521424&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-03-19_17785679159\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2.61 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;19:26&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:26&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;144.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.63 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:20&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;168.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.52 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:56&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:33&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;167.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.67 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:58&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;164.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.51 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:50&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;157.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.58 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:55&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;153.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.45 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:59&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:51&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;154.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.69 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:49&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;159.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8.63 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;45:01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:12&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;153.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.01 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:03&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;157.0&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pasadas para todos los gustos</title>
+      <link>http://localhost:1313/entrenamientos/2026-03-17_17760855240/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-03-17_17760855240/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 9.88 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 46:25&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1776388399565513823&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399565513823&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-03-17_17760855240\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2.7 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;17:03&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:18&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;140.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.21 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:59&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:07&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;132.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.01 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:05&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8:20&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;139.3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.79 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:09&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:59&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;145.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.01 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:03&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;154.3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.01 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:07&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11:40&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;143.7&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.81 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:21&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:08&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;149.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;8&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.01 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:06&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;151.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.41 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:24&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:24&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;153.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.01 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:04&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6:40&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;152.5&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.81 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:26&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:14&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;144.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;12&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.01 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:02&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:20&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;155.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.82 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:28&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;152.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;14&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.01 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:06&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;10:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;155.3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;15&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.83 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3:25&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:06&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;155.1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.01 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;21:40&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;143.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;17&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.21 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5:24&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4:27&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;158.3&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fondo a Frey desde casa con rebotes</title>
+      <link>http://localhost:1313/entrenamientos/2026-03-14_17721000364/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-03-14_17721000364/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 31.78 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 1540.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 266:12&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
+
+  &lt;div id=&#34;map-1776388399547814228&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399547814228&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-03-14_17721000364\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Torrez</title>
+      <link>http://localhost:1313/entrenamientos/2026-03-11_17691431660/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-03-11_17691431660/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 6.15 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 737.8 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 76:36&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
+
+  &lt;div id=&#34;map-1776388399547827513&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1776388399547827513&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/entrenamientos\/2026-03-11_17691431660\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Plan Semanal: Carga y Desnivel (Marzo 09 - 15)</title>
+      <link>http://localhost:1313/planes/semana-09/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/planes/semana-09/</guid>
+      <description>&lt;h1 id=&#34;plan-semanal-carga-y-desnivel-9---15-de-marzo-2026&#34;&gt;Plan Semanal: Carga y Desnivel (9 - 15 de Marzo 2026)&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Objetivo de la semana:&lt;/strong&gt; Aumentar la intensidad en las series y el volumen de desnivel positivo (D+) en montaña.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-cronograma-diario&#34;&gt;📅 Cronograma Diario&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Día&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Entrenamiento 🏃‍♂️&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Foco Nutricional 🥗&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Lunes 09/03&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Fartlek:&lt;/strong&gt; 4x (4&amp;rsquo; fuerte / 2&amp;rsquo; suave). Grupo.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Energía:&lt;/strong&gt; Pre-entreno banana/miel. Cena con pasta y pollo.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Martes 10/03&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Fuerza 1:&lt;/strong&gt; Sentadillas (peso liviano) + CORE avanzado.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Recuperación:&lt;/strong&gt; Almuerzo alto en proteína (Bife/Pechuga).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Miércoles 11/03&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Ritmo Z3:&lt;/strong&gt; 3x15&amp;rsquo; en ritmo de carrera con desnivel. Grupo.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Resistencia:&lt;/strong&gt; Hidratos complejos (arroz/lentejas) en el almuerzo.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Jueves 12/03&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Fuerza 2:&lt;/strong&gt; Cadena posterior y equilibrio (propiocepción).&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Estructura:&lt;/strong&gt; Merienda con yogur griego, nueces y huevo.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Viernes 13/03&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Descanso Total.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Carga suave:&lt;/strong&gt; Hidratación con electrolitos y cena liviana.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Sábado 14/03&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Fondo:&lt;/strong&gt; 2h 30m (+800m D+). Terreno técnico.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Protocolo:&lt;/strong&gt; 1 pastilla sales/h + 40g carbs/h. Post-fondo salado.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Domingo 15/03&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Recuperación:&lt;/strong&gt; 1h trote suave o caminata.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Reparación:&lt;/strong&gt; Asado magro o pescado con ensaladas.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-pautas-clave-de-la-semana&#34;&gt;💡 Pautas Clave de la Semana&lt;/h2&gt;
+&lt;h3 id=&#34;1-entrenamiento-de-fuerza&#34;&gt;1. Entrenamiento de Fuerza&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Intensidad:&lt;/strong&gt; Esta semana subimos un escalón. Si las sentadillas sin peso resultaban fáciles, usá una mancuerna o mochila con peso.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CORE:&lt;/strong&gt; Enfocarse en la estabilidad lateral (planchas laterales) para proteger los tobillos en las bajadas técnicas del sábado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-hidratación-y-sales-crítico&#34;&gt;2. Hidratación y Sales (Crítico)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dado el aumento de tiempo en el fondo del sábado (2h 30m), &lt;strong&gt;no salgas sin sales&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Bebé al menos 2 litros de agua diarios con una pizca de sal marina extra en las comidas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-recuperación-proteica&#34;&gt;3. Recuperación Proteica&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mantener el objetivo de &lt;strong&gt;130g - 150g de proteína diaria&lt;/strong&gt; para evitar la fatiga muscular acumulada de la fase de carga.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

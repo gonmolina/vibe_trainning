@@ -1,0 +1,50 @@
+{{ $gpxFile := .Get 0 }}
+{{ $resource := .Page.Resources.GetMatch $gpxFile }}
+{{ if $resource }}
+  {{ $gpxUrl := $resource.RelPermalink }}
+  {{ $id := delimit (slice "map" (now.UnixNano)) "-" }}
+
+  {{ if not (.Page.Scratch.Get "leaflet-loaded") }}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
+    {{ .Page.Scratch.Set "leaflet-loaded" true }}
+  {{ end }}
+
+  <div id="{{ $id }}" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"></div>
+
+  <script>
+    (function() {
+      function initMap() {
+        if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map('{{ $id }}');
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        new L.GPX("{{ $gpxUrl }}", {
+          async: true,
+          marker_options: {
+            startIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png',
+            endIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png'
+          }
+        }).on('loaded', function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === 'complete') {
+        initMap();
+      } else {
+        window.addEventListener('load', initMap);
+      }
+    })();
+  </script>
+{{ else }}
+  <p style="color: red;">Archivo GPX no encontrado: {{ $gpxFile }}</p>
+{{ end }}

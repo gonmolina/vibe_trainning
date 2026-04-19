@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Corregido on Rumbo a Nono 60k - Blog de Entrenamiento</title>
+    <link>http://localhost:1313/tags/corregido/</link>
+    <description>Recent content in Corregido on Rumbo a Nono 60k - Blog de Entrenamiento</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/corregido/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>López Laguna negra (CORREGIDO)</title>
+      <link>http://localhost:1313/entrenamientos/2026-04-11_18073235853/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/entrenamientos/2026-04-11_18073235853/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave-manual&#34;&gt;📊 Estadísticas Clave (Manual)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 24.5 km (Corregido de 11.85 km)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 1600.0 m 🏔️ (Corregido de 1691.0 m)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo Total (Elapsed):&lt;/strong&gt; 6:50:00 (Incluyendo descansos largos)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-nota-del-entrenador-se-realizó-una-corrección-manual-de-este-entrenamiento-ya-que-el-reloj-se-apagó-los-datos-de-1185-km-eran-incompletos-el-mapa-a-continuación-solo-muestra-la-parte-registrada&#34;&gt;&lt;strong&gt;⚠️ Nota del Entrenador:&lt;/strong&gt; Se realizó una corrección manual de este entrenamiento ya que el reloj se apagó. Los datos de 11.85 km eran incompletos. El mapa a continuación solo muestra la parte registrada.&lt;/h2&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+  &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+  &lt;script src=&#34;https://unpkg.com/leaflet-gpx@2.1.2/gpx.min.js&#34;&gt;&lt;/script&gt;
+
+  &lt;div id=&#34;map-1776388238550138519&#34; style=&#34;height: 500px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
+      var map = L.map(&#39;map-1776388238550138519&#39;);
+      
+      L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+        attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors&#39;
+      }).addTo(map);
+
+      var gpx = &#34;\/entrenamientos\/2026-04-11_18073235853\/activity.gpx&#34;;
+      new L.GPX(gpx, {
+        async: true,
+        marker_options: {
+          startIconUrl: &#39;https://unpkg.com/leaflet-gpx@2.1.2/pin-icon-start.png&#39;,
+          endIconUrl: &#39;https://unpkg.com/leaflet-gpx@2.1.2/pin-icon-end.png&#39;,
+          shadowUrl: &#39;https://unpkg.com/leaflet-gpx@2.1.2/pin-shadow.png&#39;
+        }
+      }).on(&#39;loaded&#39;, function(e) {
+        map.fitBounds(e.target.getBounds());
+      }).addTo(map);
+    });
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;9.96 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;231:43&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;23:15&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;145.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.0 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:04&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0:00&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.41 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;7:22&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;17:58&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;112.3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.84 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;17:25&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;20:44&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;133.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.05 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1:50&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;36:40&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;0.52 km&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;11:30&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;22:06&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;97.4&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

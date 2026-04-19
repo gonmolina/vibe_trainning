@@ -1,0 +1,157 @@
+[
+    {
+        "id": 64508790619,
+        "resource_state": 2,
+        "name": "Lap 1",
+        "activity": {
+            "id": 18034226805,
+            "visibility": "everyone",
+            "resource_state": 1
+        },
+        "athlete": {
+            "id": 7234893,
+            "resource_state": 1
+        },
+        "elapsed_time": 597,
+        "moving_time": 597,
+        "start_date": "2026-04-08T22:14:33Z",
+        "start_date_local": "2026-04-08T19:14:33Z",
+        "distance": 1000.0,
+        "average_speed": 1.68,
+        "max_speed": 3.137,
+        "lap_index": 1,
+        "split": 1,
+        "start_index": 0,
+        "end_index": 297,
+        "total_elevation_gain": 10.2,
+        "average_cadence": 81.9,
+        "device_watts": false,
+        "average_heartrate": 116.5,
+        "max_heartrate": 126.0,
+        "pace_zone": 1
+    },
+    {
+        "id": 64508790624,
+        "resource_state": 2,
+        "name": "Lap 2",
+        "activity": {
+            "id": 18034226805,
+            "visibility": "everyone",
+            "resource_state": 1
+        },
+        "athlete": {
+            "id": 7234893,
+            "resource_state": 1
+        },
+        "elapsed_time": 785,
+        "moving_time": 785,
+        "start_date": "2026-04-08T22:26:20Z",
+        "start_date_local": "2026-04-08T19:26:20Z",
+        "distance": 1000.0,
+        "average_speed": 1.27,
+        "max_speed": 2.568,
+        "lap_index": 2,
+        "split": 2,
+        "start_index": 298,
+        "end_index": 973,
+        "total_elevation_gain": 116.2,
+        "average_cadence": 78.8,
+        "device_watts": false,
+        "average_heartrate": 144.4,
+        "max_heartrate": 157.0,
+        "pace_zone": 1
+    },
+    {
+        "id": 64508790631,
+        "resource_state": 2,
+        "name": "Lap 3",
+        "activity": {
+            "id": 18034226805,
+            "visibility": "everyone",
+            "resource_state": 1
+        },
+        "athlete": {
+            "id": 7234893,
+            "resource_state": 1
+        },
+        "elapsed_time": 573,
+        "moving_time": 573,
+        "start_date": "2026-04-08T22:37:36Z",
+        "start_date_local": "2026-04-08T19:37:36Z",
+        "distance": 1000.0,
+        "average_speed": 1.75,
+        "max_speed": 2.392,
+        "lap_index": 3,
+        "split": 3,
+        "start_index": 974,
+        "end_index": 1410,
+        "total_elevation_gain": 58.4,
+        "average_cadence": 77.1,
+        "device_watts": false,
+        "average_heartrate": 148.3,
+        "max_heartrate": 158.0,
+        "pace_zone": 1
+    },
+    {
+        "id": 64508790640,
+        "resource_state": 2,
+        "name": "Lap 4",
+        "activity": {
+            "id": 18034226805,
+            "visibility": "everyone",
+            "resource_state": 1
+        },
+        "athlete": {
+            "id": 7234893,
+            "resource_state": 1
+        },
+        "elapsed_time": 709,
+        "moving_time": 709,
+        "start_date": "2026-04-08T22:47:09Z",
+        "start_date_local": "2026-04-08T19:47:09Z",
+        "distance": 1000.0,
+        "average_speed": 1.41,
+        "max_speed": 2.831,
+        "lap_index": 4,
+        "split": 4,
+        "start_index": 1411,
+        "end_index": 2119,
+        "total_elevation_gain": 74.8,
+        "average_cadence": 76.1,
+        "device_watts": false,
+        "average_heartrate": 148.1,
+        "max_heartrate": 172.0,
+        "pace_zone": 1
+    },
+    {
+        "id": 64508790646,
+        "resource_state": 2,
+        "name": "Lap 5",
+        "activity": {
+            "id": 18034226805,
+            "visibility": "everyone",
+            "resource_state": 1
+        },
+        "athlete": {
+            "id": 7234893,
+            "resource_state": 1
+        },
+        "elapsed_time": 1014,
+        "moving_time": 1014,
+        "start_date": "2026-04-08T22:58:58Z",
+        "start_date_local": "2026-04-08T19:58:58Z",
+        "distance": 970.0,
+        "average_speed": 0.96,
+        "max_speed": 3.685,
+        "lap_index": 5,
+        "split": 5,
+        "start_index": 2120,
+        "end_index": 3133,
+        "total_elevation_gain": 84.2,
+        "average_cadence": 77.2,
+        "device_watts": false,
+        "average_heartrate": 154.9,
+        "max_heartrate": 170.0,
+        "pace_zone": 1
+    }
+]

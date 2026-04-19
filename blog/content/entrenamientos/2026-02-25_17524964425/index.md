@@ -1,0 +1,38 @@
+---
+title: "Rege again"
+date: 2026-02-25
+categories: ["Entrenamiento"]
+tags: ["Run", "Strava"]
+strava_id: 17524964425
+---
+
+## 📊 Estadísticas Clave
+- **Distancia:** 10.4 km
+- **Desnivel Positivo:** 166.8 m 🏔️
+- **Tiempo en movimiento:** 72:28
+- **Tipo de actividad:** Run
+
+
+## 🗺️ Mapa y Recorrido
+{{< gpx "activity.gpx" >}}
+
+
+## ⏱️ Vueltas (Laps)
+| Lap | Distancia | Tiempo | Ritmo | FC Med |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | 1.0 km | 6:24 | 6:24 | 126.5 |
+| 2 | 1.0 km | 6:45 | 6:45 | 130.1 |
+| 3 | 1.0 km | 6:07 | 6:07 | 137.6 |
+| 4 | 1.0 km | 6:12 | 6:12 | 146.4 |
+| 5 | 1.0 km | 9:07 | 9:07 | 133.1 |
+| 6 | 1.0 km | 7:20 | 7:20 | 138.8 |
+| 7 | 1.0 km | 6:21 | 6:21 | 141.9 |
+| 8 | 1.0 km | 6:58 | 6:58 | 139.9 |
+| 9 | 1.0 km | 6:53 | 6:53 | 135.8 |
+| 10 | 1.0 km | 7:23 | 7:23 | 132.6 |
+| 11 | 0.33 km | 2:58 | 8:59 | 140.5 |
+
+
+
+---
+*Generado automáticamente vía API de Strava.*

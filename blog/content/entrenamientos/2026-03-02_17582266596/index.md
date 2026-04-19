@@ -1,0 +1,45 @@
+---
+title: "Cambios de ritmo"
+date: 2026-03-02
+categories: ["Entrenamiento"]
+tags: ["Run", "Strava"]
+strava_id: 17582266596
+---
+
+## 📊 Estadísticas Clave
+- **Distancia:** 14.69 km
+- **Desnivel Positivo:** 100.7 m 🏔️
+- **Tiempo en movimiento:** 88:40
+- **Tipo de actividad:** Run
+
+
+## 🗺️ Mapa y Recorrido
+{{< gpx "activity.gpx" >}}
+
+
+## ⏱️ Vueltas (Laps)
+| Lap | Distancia | Tiempo | Ritmo | FC Med |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | 1.0 km | 6:28 | 6:28 | 138.4 |
+| 2 | 1.0 km | 6:23 | 6:23 | 156.8 |
+| 3 | 1.0 km | 6:41 | 6:41 | 151.4 |
+| 4 | 0.14 km | 0:58 | 6:54 | 152.6 |
+| 5 | 0.02 km | 0:08 | 6:40 | 127.4 |
+| 6 | 0.87 km | 4:14 | 4:51 | 155.6 |
+| 7 | 0.87 km | 5:36 | 6:26 | 158.4 |
+| 8 | 0.88 km | 4:11 | 4:45 | 154.3 |
+| 9 | 0.87 km | 5:37 | 6:27 | 155.5 |
+| 10 | 0.87 km | 4:08 | 4:45 | 167.7 |
+| 11 | 0.87 km | 5:46 | 6:37 | 152.0 |
+| 12 | 0.86 km | 4:16 | 4:57 | 159.9 |
+| 13 | 0.87 km | 5:38 | 6:28 | 153.9 |
+| 14 | 0.84 km | 4:16 | 5:04 | 157.6 |
+| 15 | 1.0 km | 6:45 | 6:45 | 146.8 |
+| 16 | 1.0 km | 6:37 | 6:37 | 152.3 |
+| 17 | 1.0 km | 8:02 | 8:02 | 148.1 |
+| 18 | 0.41 km | 2:56 | 7:09 | 140.6 |
+
+
+
+---
+*Generado automáticamente vía API de Strava.*

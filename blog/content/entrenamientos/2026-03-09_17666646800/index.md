@@ -1,0 +1,34 @@
+---
+title: "Pasadas recontra largas..."
+date: 2026-03-09
+categories: ["Entrenamiento"]
+tags: ["Run", "Strava"]
+strava_id: 17666646800
+---
+
+## 📊 Estadísticas Clave
+- **Distancia:** 16.98 km
+- **Desnivel Positivo:** 84.2 m 🏔️
+- **Tiempo en movimiento:** 94:02
+- **Tipo de actividad:** Run
+
+
+## 🗺️ Mapa y Recorrido
+{{< gpx "activity.gpx" >}}
+
+
+## ⏱️ Vueltas (Laps)
+| Lap | Distancia | Tiempo | Ritmo | FC Med |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | 5.38 km | 32:19 | 6:00 | 138.6 |
+| 2 | 3.12 km | 14:03 | 4:30 | 172.0 |
+| 3 | 0.01 km | 0:03 | 5:00 | 181.7 |
+| 4 | 3.12 km | 13:57 | 4:28 | 176.2 |
+| 5 | 0.01 km | 0:08 | 13:20 | 183.4 |
+| 6 | 1.41 km | 6:36 | 4:40 | 178.1 |
+| 7 | 3.84 km | 26:56 | 7:00 | 145.8 |
+
+
+
+---
+*Generado automáticamente vía API de Strava.*

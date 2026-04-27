@@ -140,9 +140,9 @@ def download_activities():
         if count_new >= 20:
             break
 
+        nombre = activity["name"].replace('"', '\\"')
         fecha_str = activity["start_date_local"].split("T")[0]
         id_act = activity["id"]
-        nombre = activity["name"]
 
         # Page Bundle Directory
         activity_dir = os.path.join(OUTPUT_DIR, f"{fecha_str}_{id_act}")

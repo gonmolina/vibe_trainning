@@ -2,17 +2,502 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>WeightTraining on Rumbo a Nono 60k - Blog de Entrenamiento</title>
-    <link>http://localhost:1313/tags/weighttraining/</link>
+    <link>https://gonmolina.github.io/vibe_trainning/tags/weighttraining/</link>
     <description>Recent content in WeightTraining on Rumbo a Nono 60k - Blog de Entrenamiento</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/weighttraining/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gonmolina.github.io/vibe_trainning/tags/weighttraining/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Morning Weight Training</title>
+      <link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-30_19122749920/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-30_19122749920/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 37:27&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
+
+  &lt;div id=&#34;map-1782958887968008052&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1782958887968008052&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/vibe_trainning\/entrenamientos\/2026-06-30_19122749920\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Morning Weight Training</title>
+      <link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-25_19061112802/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-25_19061112802/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 63:24&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+
+  &lt;div id=&#34;map-1782958888040561192&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1782958888040561192&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/vibe_trainning\/entrenamientos\/2026-06-25_19061112802\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;-vueltas-laps&#34;&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;Lap&lt;/th&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;Distancia&lt;/th&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;Tiempo&lt;/th&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;Ritmo&lt;/th&gt;
+					&lt;th style=&#34;text-align: left&#34;&gt;FC Med&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;0.0 km&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;13:32&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;0:00&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;102.2&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;0.0 km&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;0:32&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;0:00&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;104.5&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;0.0 km&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;49:16&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;0:00&lt;/td&gt;
+					&lt;td style=&#34;text-align: left&#34;&gt;98.1&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Morning Weight Training</title>
+      <link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-23_19034917831/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-23_19034917831/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 57:28&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
+
+  &lt;div id=&#34;map-1782958887971946175&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1782958887971946175&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/vibe_trainning\/entrenamientos\/2026-06-23_19034917831\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Morning Weight Training</title>
+      <link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-19_18983712134/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-19_18983712134/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 73:16&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
+
+  &lt;div id=&#34;map-1782958887975691120&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1782958887975691120&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/vibe_trainning\/entrenamientos\/2026-06-19_18983712134\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Morning Weight Training</title>
+      <link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-17_18957618118/</link>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-17_18957618118/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 113:32&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
+
+  &lt;div id=&#34;map-1782958887981811759&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1782958887981811759&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/vibe_trainning\/entrenamientos\/2026-06-17_18957618118\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Morning Weight Training</title>
+      <link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-05_18796322593/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-05_18796322593/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 55:50&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
+
+  &lt;div id=&#34;map-1782958887986981391&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1782958887986981391&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/vibe_trainning\/entrenamientos\/2026-06-05_18796322593\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Evening Weight Training</title>
+      <link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-03_18776607405/</link>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-06-03_18776607405/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 65:26&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
+
+  &lt;div id=&#34;map-1782958887991306148&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1782958887991306148&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/vibe_trainning\/entrenamientos\/2026-06-03_18776607405\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Entrenamiento con pesas vespertino</title>
-      <link>http://localhost:1313/entrenamientos/2026-04-09_18046922894/</link>
+      <link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-04-09_18046922894/</link>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/entrenamientos/2026-04-09_18046922894/</guid>
+      <guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-04-09_18046922894/</guid>
       <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
@@ -28,32 +513,110 @@
   
 
   
-  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
-  &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
-  &lt;script src=&#34;https://unpkg.com/leaflet-gpx@2.1.2/gpx.min.js&#34;&gt;&lt;/script&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
 
-  &lt;div id=&#34;map-1776388198043780075&#34; style=&#34;height: 500px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0;&#34;&gt;&lt;/div&gt;
+  &lt;div id=&#34;map-1782958887996629162&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
 
   &lt;script&gt;
-    document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
-      var map = L.map(&#39;map-1776388198043780075&#39;);
-      
-      L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
-        attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors&#39;
-      }).addTo(map);
-
-      var gpx = &#34;\/entrenamientos\/2026-04-09_18046922894\/activity.gpx&#34;;
-      new L.GPX(gpx, {
-        async: true,
-        marker_options: {
-          startIconUrl: &#39;https://unpkg.com/leaflet-gpx@2.1.2/pin-icon-start.png&#39;,
-          endIconUrl: &#39;https://unpkg.com/leaflet-gpx@2.1.2/pin-icon-end.png&#39;,
-          shadowUrl: &#39;https://unpkg.com/leaflet-gpx@2.1.2/pin-shadow.png&#39;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
         }
-      }).on(&#39;loaded&#39;, function(e) {
-        map.fitBounds(e.target.getBounds());
-      }).addTo(map);
-    });
+        
+        var map = L.map(&#39;map-1782958887996629162&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/vibe_trainning\/entrenamientos\/2026-04-09_18046922894\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entrenamiento con pesas por la tarde</title>
+      <link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-03-05_17617980470/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-03-05_17617980470/</guid>
+      <description>&lt;h2 id=&#34;-estadísticas-clave&#34;&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 47:11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-mapa-y-recorrido&#34;&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+
+
+
+  
+  
+
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&#34; /&gt;
+    &lt;script src=&#34;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js&#34;&gt;&lt;/script&gt;
+    
+  
+
+  &lt;div id=&#34;map-1782958887974219794&#34; class=&#34;gpx-map&#34; style=&#34;height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;&#34;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      function initMap() {
+        if (typeof L === &#39;undefined&#39; || typeof L.GPX === &#39;undefined&#39;) {
+          setTimeout(initMap, 100);
+          return;
+        }
+        
+        var map = L.map(&#39;map-1782958887974219794&#39;);
+        L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+          attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt;&#39;
+        }).addTo(map);
+
+        new L.GPX(&#34;\/vibe_trainning\/entrenamientos\/2026-03-05_17617980470\/activity.gpx&#34;, {
+          async: true,
+          marker_options: {
+            startIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png&#39;,
+            endIconUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png&#39;,
+            shadowUrl: &#39;https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png&#39;
+          }
+        }).on(&#39;loaded&#39;, function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+      
+      if (document.readyState === &#39;complete&#39;) {
+        initMap();
+      } else {
+        window.addEventListener(&#39;load&#39;, initMap);
+      }
+    })();
   &lt;/script&gt;
 
 

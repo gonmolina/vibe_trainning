@@ -9,3 +9,7 @@ wheels/
 # Virtual environments
 .venv
 blog/public/
+
+# Local credentials
+.env
+bandurrias_config.json

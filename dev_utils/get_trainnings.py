@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import time
 from datetime import datetime
 import gpxpy
 import gpxpy.gpx
@@ -48,25 +49,26 @@ def download_gpx(activity_id, token, save_path):
         params=params
     )
     
-    if response.status_code != 200:
-        print(f"⚠️ No se pudo obtener el stream para GPX ({activity_id})")
-        return False
-        
-    streams = response.json()
-    
     # Reconstruir GPX
     gpx = gpxpy.gpx.GPX()
     gpx_track = gpxpy.gpx.GPXTrack()
     gpx.tracks.append(gpx_track)
     gpx_segment = gpxpy.gpx.GPXTrackSegment()
     gpx_track.segments.append(gpx_segment)
+
+    if response.status_code != 200:
+        print(f"⚠️ No se pudo obtener el stream para GPX ({activity_id})")
+        with open(save_path, "w") as f:
+            f.write(gpx.to_xml())
+        return False
+        
+    streams = response.json()
     
     latlng = streams.get("latlng", {}).get("data", [])
     altitudes = streams.get("altitude", {}).get("data", [])
     times = streams.get("time", {}).get("data", [])
     
     # Strava activity start time
-    # (We could get this from activity but for simplicity we use 0)
     for i in range(len(latlng)):
         lat, lon = latlng[i]
         ele = altitudes[i] if i < len(altitudes) else 0
@@ -120,28 +122,46 @@ def download_activities():
         
     headers = {"Authorization": f"Bearer {token}"}
 
-    response = requests.get(
-        "https://www.strava.com/api/v3/athlete/activities",
-        headers=headers,
-        params={"per_page": 50},
-    )
+    all_activities = []
+    page = 1
+    print("📥 Obteniendo lista de actividades desde Strava...")
+    while True:
+        response = requests.get(
+            "https://www.strava.com/api/v3/athlete/activities",
+            headers=headers,
+            params={"per_page": 100, "page": page},
+        )
 
-    if response.status_code != 200:
-        print(f"❌ Error en la API de Strava ({response.status_code}): {response.text}")
-        return
-
-    activities = response.json()
-    if not isinstance(activities, list):
-        print(f"❌ Respuesta inesperada de la API: {activities}")
-        return
-
-    count_new = 0
-    for activity in activities:
-        if count_new >= 20:
+        if response.status_code != 200:
+            print(f"❌ Error en la API de Strava ({response.status_code}): {response.text}")
             break
 
-        nombre = activity["name"].replace('"', '\\"')
+        activities = response.json()
+        if not activities or not isinstance(activities, list):
+            break
+
+        all_activities.extend(activities)
+        print(f"   Página {page}: {len(activities)} actividades encontradas.")
+        if len(activities) < 100:
+            break
+
+        # Si llegamos a actividades anteriores al 11 de julio de 2026, ya cubrimos todo lo nuevo
+        if activities[-1].get("start_date_local", "") < "2026-07-11":
+            break
+
+        page += 1
+        time.sleep(0.2)
+
+    count_new = 0
+    total_found = len(all_activities)
+    print(f"🔎 Total de actividades para verificar: {total_found}")
+
+    for activity in all_activities:
         fecha_str = activity["start_date_local"].split("T")[0]
+        if fecha_str < "2026-07-11":
+            continue
+
+        nombre = activity["name"].replace('"', '\\"')
         id_act = activity["id"]
 
         # Page Bundle Directory
@@ -152,25 +172,44 @@ def download_activities():
 
         # Verificar si ya existe
         if os.path.exists(json_path):
-            print(f"⏭️  Omitiendo (ya existe): {fecha_str} - {nombre}")
             continue
 
         if not os.path.exists(activity_dir):
             os.makedirs(activity_dir)
 
         count_new += 1
-        print(f"🔄 Procesando: {fecha_str} - {nombre}")
+        print(f"🔄 [{count_new}] Procesando: {fecha_str} - {nombre} (ID: {id_act})")
 
-        # 🔄 Obtener Laps (Vueltas)
-        laps_response = requests.get(
-            f"https://www.strava.com/api/v3/activities/{id_act}/laps",
-            headers=headers
-        )
-        laps = laps_response.json() if laps_response.status_code == 200 else []
+        has_polyline = bool(activity.get("map", {}).get("summary_polyline"))
 
-        # 🔄 Descargar GPX y Fotos
-        download_gpx(id_act, token, gpx_path)
-        photos = download_photos(id_act, token, activity_dir)
+        # 🔄 Obtener Laps (Vueltas) si aplica
+        laps = []
+        if activity.get("type") in ["Run", "TrailRun", "Ride", "Hike", "Walk"]:
+            try:
+                laps_response = requests.get(
+                    f"https://www.strava.com/api/v3/activities/{id_act}/laps",
+                    headers=headers
+                )
+                if laps_response.status_code == 200:
+                    laps = laps_response.json()
+            except Exception as e:
+                print(f"⚠️ Error obteniendo laps: {e}")
+            time.sleep(0.15)
+
+        # 🔄 Descargar GPX si tiene ruta, o generar GPX vacío
+        if has_polyline:
+            download_gpx(id_act, token, gpx_path)
+            time.sleep(0.15)
+        else:
+            gpx = gpxpy.gpx.GPX()
+            with open(gpx_path, "w") as f:
+                f.write(gpx.to_xml())
+
+        # 🔄 Fotos solo si tiene fotos asociadas
+        photos = []
+        if activity.get("total_photo_count", 0) > 0:
+            photos = download_photos(id_act, token, activity_dir)
+            time.sleep(0.15)
 
         # Datos básicos
         distancia_km = round(activity["distance"] / 1000, 2)
@@ -234,6 +273,8 @@ strava_id: {id_act}
         
         with open(md_path, "w") as f:
             f.write(md_content)
+
+    print(f"✅ Descarga completada: {count_new} actividades nuevas procesadas.")
 
 
 if __name__ == "__main__":

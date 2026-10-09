@@ -1,12 +1,12 @@
 baseURL = 'https://gonmolina.github.io/vibe_trainning/'
 languageCode = 'es-es'
-title = 'Rumbo a Nono 60k - Blog de Entrenamiento'
+title = 'Trail & Ultra Trail - Blog de Entrenamiento'
 theme = 'PaperMod'
 
 [params]
   env = 'development'
-  title = 'Rumbo a Nono 60k'
-  description = 'Seguimiento del plan de entrenamiento para los 60km de Nono.'
+  title = 'Trail & Ultra Trail'
+  description = 'Seguimiento de entrenamiento: Desafío Wayra 35k y El Paso Austral 70k.'
   ShowCodeCopyButtons = true
   ShowReadingTime = true
   ShowShareButtons = false
@@ -15,8 +15,8 @@ theme = 'PaperMod'
   defaultTheme = 'auto'
   
   [params.homeInfoParams]
-    Title = "Rumbo a Nono 60k 🏔️"
-    Content = "Blog de seguimiento para los 60km (Champa Ultra Race) de Nono, Córdoba. Planes semanales, entrenamientos de Strava y análisis de forma física."
+    Title = "Trail & Ultra Trail 🏔️"
+    Content = "Blog de seguimiento y entrenamiento de montaña con Bandurrias Trail Running Team (Bariloche). Planes semanales, sincronización de Strava y bitácora rumbo a Desafío Wayra y El Paso Austral."
 
 [menu]
   [[menu.main]]

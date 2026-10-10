@@ -127,61 +127,61 @@ def format_group_session(session):
         info_items.append(f'<div class="session-info-item">⏰ {turnos_str}</div>')
 
     if info_items:
-        html.append('  <div class="session-info-grid">')
-        html.extend([f'    {item}' for item in info_items])
-        html.append('  </div>')
+        html.append('<div class="session-info-grid">')
+        html.extend([item for item in info_items])
+        html.append('</div>')
 
     # Objective
     if session.get("objective"):
-        html.append(f'  <div class="session-objective"><strong>🎯 Objetivo:</strong> {session["objective"]}</div>')
+        html.append(f'<div class="session-objective"><strong>🎯 Objetivo:</strong> {session["objective"]}</div>')
 
     # Structure
     acts = session.get("activities", [])
     clean_acts = [a.strip() for a in acts if a.strip()]
     if clean_acts:
-        html.append('  <div class="session-structure">')
-        html.append('    <strong>Estructura de la sesión:</strong>')
-        html.append('    <ol>')
+        html.append('<div class="session-structure">')
+        html.append('<strong>Estructura de la sesión:</strong>')
+        html.append('<ol>')
         for a in clean_acts:
-            html.append(f'      <li>{a}</li>')
-        html.append('    </ol>')
-        html.append('  </div>')
+            html.append(f'<li>{a}</li>')
+        html.append('</ol>')
+        html.append('</div>')
 
     # Levels (Highlighting AVANZADO)
     niveles = session.get("niveles", [])
     if niveles:
-        html.append('  <div class="levels-container">')
+        html.append('<div class="levels-container">')
         for n in niveles:
             tipo = n.get("type", "").upper()
             text = n.get("text", "")
             if tipo == "AVZ":
-                html.append('    <div class="level-card level-avanzado">')
-                html.append('      <div class="level-card-header">')
-                html.append('        <span>🔴 Nivel Avanzado</span>')
-                html.append('        <span class="level-target-badge">🎯 TU TAREA</span>')
-                html.append('      </div>')
-                html.append(f'      <div style="font-weight: 500; line-height: 1.45;">{text}</div>')
-                html.append('    </div>')
+                html.append('<div class="level-card level-avanzado">')
+                html.append('<div class="level-card-header">')
+                html.append('<span>🔴 Nivel Avanzado</span>')
+                html.append('<span class="level-target-badge">🎯 TU TAREA</span>')
+                html.append('</div>')
+                html.append(f'<div style="font-weight: 500; line-height: 1.45;">{text}</div>')
+                html.append('</div>')
             elif tipo == "MED":
-                html.append('    <div class="level-card level-other">')
-                html.append('      <div class="level-card-header" style="color: #d97706;">🟡 Nivel Medio</div>')
-                html.append(f'      <div>{text}</div>')
-                html.append('    </div>')
+                html.append('<div class="level-card level-other">')
+                html.append('<div class="level-card-header" style="color: #d97706;">🟡 Nivel Medio</div>')
+                html.append(f'<div>{text}</div>')
+                html.append('</div>')
             elif tipo == "INI":
-                html.append('    <div class="level-card level-other">')
-                html.append('      <div class="level-card-header" style="color: #059669;">🟢 Nivel Inicial</div>')
-                html.append(f'      <div>{text}</div>')
-                html.append('    </div>')
+                html.append('<div class="level-card level-other">')
+                html.append('<div class="level-card-header" style="color: #059669;">🟢 Nivel Inicial</div>')
+                html.append(f'<div>{text}</div>')
+                html.append('</div>')
             else:
-                html.append(f'    <div class="level-card level-other"><div class="level-card-header">{tipo}</div><div>{text}</div></div>')
-        html.append('  </div>')
+                html.append(f'<div class="level-card level-other"><div class="level-card-header">{tipo}</div><div>{text}</div></div>')
+        html.append('</div>')
 
     # Note / Material
     note = session.get("note", {})
     if note.get("text"):
-        html.append('  <div class="session-note">')
-        html.append(f'    <strong>⚠️ {note.get("strong", "Importante:")}</strong> {note.get("text").replace(chr(10), "<br>")}')
-        html.append('  </div>')
+        html.append('<div class="session-note">')
+        html.append(f'<strong>⚠️ {note.get("strong", "Importante:")}</strong> {note.get("text").replace(chr(10), "<br>")}')
+        html.append('</div>')
 
     html.append('</div>\n')
     return "\n".join(html)

@@ -8,7 +8,7 @@
 &lt;hr&gt;
 &lt;h2 id="-nota-del-entrenador-se-realizó-una-corrección-manual-de-este-entrenamiento-ya-que-el-reloj-se-apagó-los-datos-de-1185-km-eran-incompletos-el-mapa-a-continuación-solo-muestra-la-parte-registrada"&gt;&lt;strong&gt;⚠️ Nota del Entrenador:&lt;/strong&gt; Se realizó una corrección manual de este entrenamiento ya que el reloj se apagó. Los datos de 11.85 km eran incompletos. El mapa a continuación solo muestra la parte registrada.&lt;/h2&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1791599636626336275" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1791599999225668018" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -16,7 +16,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1791599636626336275');
+var map = L.map('map-1791599999225668018');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);

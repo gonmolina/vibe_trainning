@@ -27,8 +27,32 @@ def save_config(config):
         json.dump(config, f, indent=2, ensure_ascii=False)
 
 
+import time
+import base64
+
+
+def is_token_expired(token: str, margin_seconds: int = 300) -> bool:
+    """Verifica si el JWT ha expirado o está cerca de expirar."""
+    try:
+        parts = token.split(".")
+        if len(parts) < 2:
+            return True
+        payload_b64 = parts[1]
+        # Padding base64
+        payload_b64 += "=" * ((4 - len(payload_b64) % 4) % 4)
+        payload = json.loads(base64.urlsafe_b64decode(payload_b64).decode("utf-8"))
+        exp = payload.get("exp", 0)
+        return (exp - time.time()) < margin_seconds
+    except Exception:
+        return True
+
+
 def refresh_access_token(config):
-    """Refresca el access_token usando el refresh_token y guarda el nuevo estado."""
+    """Refresca el access_token usando el refresh_token si ha expirado, y guarda el nuevo estado."""
+    current_token = config.get("access_token", "")
+    if current_token and not is_token_expired(current_token):
+        return current_token
+
     url = f"{config['supabase_url']}/auth/v1/token?grant_type=refresh_token"
     headers = {"apikey": config["apikey"], "Content-Type": "application/json"}
     payload = {"refresh_token": config["refresh_token"]}
@@ -36,7 +60,7 @@ def refresh_access_token(config):
     resp = requests.post(url, headers=headers, json=payload)
     if resp.status_code != 200:
         print(f"⚠️ Error al refrescar token ({resp.status_code}): {resp.text}")
-        return config["access_token"]
+        return config.get("access_token")
 
     data = resp.json()
     config["access_token"] = data["access_token"]
@@ -69,76 +93,98 @@ def fetch_weeks(config, limit=5):
 def format_group_session(session):
     badge = session.get("badge", {})
     badge_label = badge.get("label", "Entrenamiento")
-    days = ", ".join([d.upper() for d in session.get("days", [])])
+    badge_type = badge.get("type", "general")
+    days = " · ".join([d.upper() for d in session.get("days", [])])
 
-    md = []
+    html = []
+    html.append('<div class="session-card">')
+    html.append('  <div class="session-header">')
+    html.append(f'    <span class="session-day-badge">📅 {days}</span>')
+    html.append(f'    <span class="session-type-badge type-{badge_type}">{badge_label}</span>')
+    html.append('  </div>')
+
     if session.get("rest"):
         rest_body = session.get("restBody", {})
         title = rest_body.get("title", "Descanso")
-        md.append(f"### 🛌 {days} — {title}")
+        html.append(f'  <h4 style="margin: 0.5rem 0;">🛌 {title}</h4>')
         for line in rest_body.get("lines", []):
             if line.strip():
-                md.append(f"- {line}")
-        md.append("")
-        return "\n".join(md)
+                html.append(f'  <p style="margin: 0.25rem 0; color: var(--secondary);">{line}</p>')
+        html.append('</div>\n')
+        return "\n".join(html)
 
-    day_label = session.get("dayLabel") or badge_label
-    md.append(f"### 🏃 {days} — {day_label}")
-
-    # Meetpoint
+    # Info grid: Meetpoint & Turnos
+    info_items = []
     mp = session.get("meetpoint", {})
     if mp.get("text"):
         url = mp.get("url", "")
-        if url:
-            md.append(f"- **Punto de encuentro:** [{mp['text']}]({url})")
-        else:
-            md.append(f"- **Punto de encuentro:** {mp['text']}")
+        link = f'<a href="{url}" target="_blank" rel="noopener">📍 {mp["text"]}</a>' if url else f'📍 {mp["text"]}'
+        info_items.append(f'<div class="session-info-item">{link}</div>')
 
-    # Turnos
     turnos = session.get("turnos", [])
     if turnos:
-        turnos_str = " | ".join(
-            [f"{t.get('day', '').upper()}: {t.get('text', '')}" for t in turnos]
-        )
-        md.append(f"- **Horarios:** {turnos_str}")
+        turnos_str = " &nbsp;|&nbsp; ".join([f"<strong>{t.get('day', '').upper()}</strong>: {t.get('text', '')}" for t in turnos])
+        info_items.append(f'<div class="session-info-item">⏰ {turnos_str}</div>')
 
-    # Objetivo
+    if info_items:
+        html.append('  <div class="session-info-grid">')
+        html.extend([f'    {item}' for item in info_items])
+        html.append('  </div>')
+
+    # Objective
     if session.get("objective"):
-        md.append(f"- **Objetivo:** {session['objective']}")
+        html.append(f'  <div class="session-objective"><strong>🎯 Objetivo:</strong> {session["objective"]}</div>')
 
-    # Actividades
+    # Structure
     acts = session.get("activities", [])
     clean_acts = [a.strip() for a in acts if a.strip()]
     if clean_acts:
-        md.append("\n**Estructura:**")
+        html.append('  <div class="session-structure">')
+        html.append('    <strong>Estructura de la sesión:</strong>')
+        html.append('    <ol>')
         for a in clean_acts:
-            md.append(f"1. {a}")
+            html.append(f'      <li>{a}</li>')
+        html.append('    </ol>')
+        html.append('  </div>')
 
-    # Niveles
+    # Levels (Highlighting AVANZADO)
     niveles = session.get("niveles", [])
     if niveles:
-        md.append("\n**Propuesta por Niveles:**")
+        html.append('  <div class="levels-container">')
         for n in niveles:
             tipo = n.get("type", "").upper()
-            if tipo == "INI":
-                label = "🟢 Inicial"
+            text = n.get("text", "")
+            if tipo == "AVZ":
+                html.append('    <div class="level-card level-avanzado">')
+                html.append('      <div class="level-card-header">')
+                html.append('        <span>🔴 Nivel Avanzado</span>')
+                html.append('        <span class="level-target-badge">🎯 TU TAREA</span>')
+                html.append('      </div>')
+                html.append(f'      <div style="font-weight: 500; line-height: 1.45;">{text}</div>')
+                html.append('    </div>')
             elif tipo == "MED":
-                label = "🟡 Medio"
-            elif tipo == "AVZ":
-                label = "🔴 Avanzado"
+                html.append('    <div class="level-card level-other">')
+                html.append('      <div class="level-card-header" style="color: #d97706;">🟡 Nivel Medio</div>')
+                html.append(f'      <div>{text}</div>')
+                html.append('    </div>')
+            elif tipo == "INI":
+                html.append('    <div class="level-card level-other">')
+                html.append('      <div class="level-card-header" style="color: #059669;">🟢 Nivel Inicial</div>')
+                html.append(f'      <div>{text}</div>')
+                html.append('    </div>')
             else:
-                label = tipo
-            md.append(f"- **{label}:** {n.get('text', '')}")
+                html.append(f'    <div class="level-card level-other"><div class="level-card-header">{tipo}</div><div>{text}</div></div>')
+        html.append('  </div>')
 
-    # Notas / Material
+    # Note / Material
     note = session.get("note", {})
     if note.get("text"):
-        md.append(
-            f"\n> [!NOTE]\n> **{note.get('strong', 'Nota:')}** {note.get('text').replace(chr(10), ' ')}"
-        )
+        html.append('  <div class="session-note">')
+        html.append(f'    <strong>⚠️ {note.get("strong", "Importante:")}</strong> {note.get("text").replace(chr(10), "<br>")}')
+        html.append('  </div>')
 
-    md.append("\n---\n")
-    return "\n".join(md)
+    html.append('</div>\n')
+    return "\n".join(html)
 
 
 def format_distance_session(day_key, sessions):
@@ -193,7 +239,7 @@ def format_distance_session(day_key, sessions):
     return "\n".join(md)
 
 
-def save_week_plan(week_data):
+def save_week_plan(week_data, is_latest=True):
     plan = week_data.get("plan", {})
     week_id = week_data.get("id")
     week_num = plan.get("weekNumber", "")
@@ -201,18 +247,37 @@ def save_week_plan(week_data):
     period = plan.get("period", "")
     kind = week_data.get("kind", "grupo")
 
-    # Archivo de salida
+    BLOG_SEMANAS_DIR = os.path.join(SCRIPT_DIR, "..", "blog", "content", "semanas")
+    os.makedirs(BLOG_SEMANAS_DIR, exist_ok=True)
+
     clean_id = week_id.replace(":", "_")
-    filename = f"plan_bandurrias_{clean_id}.md"
-    filepath = os.path.join(OUTPUT_DIR, filename)
+    blog_file = os.path.join(BLOG_SEMANAS_DIR, f"{clean_id}.md")
+    root_file = os.path.join(OUTPUT_DIR, f"plan_bandurrias_{clean_id}.md")
+
+    # Fecha para frontmatter
+    date_part = week_id if ":" not in week_id else week_id.split(":")[-1]
 
     lines = [
-        f"# 🏔️ Planificación Bandurrias Trail Running — Semana {week_num}",
-        f"**Fechas:** {dates}  ",
-        f"**Período:** {period}  " if period else "",
-        f"**Tipo:** {'Grupo Presencial' if kind != 'distance' else 'Distancia / Individual'}  ",
-        f"**ID:** `{week_id}`",
-        "\n---",
+        "---",
+        f'title: "Semana {week_num}: {dates}"',
+        f'date: {date_part}',
+        'categories: ["Planificación Semanal"]',
+        f'tags: ["Bandurrias", "Semana {week_num}", "Avanzado"]',
+        f'weight: {1 if is_latest else 10}',
+        "---",
+        "",
+        '<div class="week-summary-banner">',
+        '  <div>',
+        f'    <h2 class="week-summary-title">🏔️ Semana {week_num} — {dates}</h2>',
+        f'    <div style="font-size: 0.9rem; color: var(--secondary); margin-top: 0.25rem;">{period}</div>' if period else "",
+        '  </div>',
+        '  <div class="week-summary-meta">',
+        '    <span class="week-pill highlight">🎯 Tu Tarea: Avanzado</span>',
+        f'    <span class="week-pill">👥 {"Grupo Presencial" if kind != "distance" else "Distancia"}</span>',
+        '  </div>',
+        '</div>',
+        "",
+        '<div class="week-container">',
         "",
     ]
 
@@ -227,12 +292,17 @@ def save_week_plan(week_data):
             if d in raw_sessions and raw_sessions[d]:
                 lines.append(format_distance_session(d, raw_sessions[d]))
 
+    lines.append('</div>')
+
     content = "\n".join(lines)
-    with open(filepath, "w", encoding="utf-8") as f:
+    with open(blog_file, "w", encoding="utf-8") as f:
         f.write(content)
 
-    print(f"✅ Plan guardado en: {filepath}")
-    return filepath
+    with open(root_file, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"✅ Plan guardado en blog: {blog_file}")
+    return blog_file
 
 
 def main():
@@ -242,17 +312,17 @@ def main():
 
     print(f"📥 Se recuperaron {len(weeks)} semanas.")
 
-    # Guardar la más reciente de grupo
+    # Guardar las semanas de grupo en el blog
     group_weeks = [
         w for w in weeks if w.get("kind") != "distance" or ":" not in w.get("id", "")
     ]
     if group_weeks:
-        latest = group_weeks[0]
-        print(f"👉 Procesando semana actual del grupo: {latest.get('id')}")
-        save_week_plan(latest)
+        for idx, w in enumerate(group_weeks):
+            is_latest = (idx == 0)
+            print(f"👉 Procesando {'semana actual' if is_latest else 'semana anterior'}: {w.get('id')}")
+            save_week_plan(w, is_latest=is_latest)
     else:
-        # Guardar la más reciente disponible
-        save_week_plan(weeks[0])
+        save_week_plan(weeks[0], is_latest=True)
 
 
 if __name__ == "__main__":

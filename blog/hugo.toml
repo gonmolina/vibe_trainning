@@ -18,12 +18,19 @@ theme = 'PaperMod'
     Title = "Trail & Ultra Trail 🏔️"
     Content = "Blog de seguimiento y entrenamiento de montaña con Bandurrias Trail Running Team (Bariloche). Planes semanales, sincronización de Strava y bitácora rumbo a Desafío Wayra y El Paso Austral."
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [menu]
+  [[menu.main]]
+    name = "Semana Actual"
+    url = "semanas"
+    weight = 10
   [[menu.main]]
     name = "Entrenamientos"
     url = "entrenamientos"
-    weight = 10
-  [[menu.main]]
-    name = "Planes"
-    url = "planes"
     weight = 20
+  [[menu.main]]
+    name = "Planes Maestros"
+    url = "planes"
+    weight = 30

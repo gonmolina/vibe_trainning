@@ -38,15 +38,41 @@ Tiende a doblarse los tobillos con facilidad, aunque en general sin lesiones que
 - **Criterio de decisión:** Se evaluará la confirmación y preparación específica para este ultra según el resultado, sensaciones y respuesta biomecánica en Desafío Wayra (13 de diciembre) y el bloque de volumen de enero.
 
 
-# Formas de detallar el plan
-El plan de entrenamiento se detalla de forma general con los objetivos semana por semana.
-En la semana especifica dia por dia:
-- La consigna base de **Avanzado** de Bandurrias para los días de grupo.
-- Las pautas complementarias recomendadas (fuerza, calentamiento/propiocepción, ritmos sugeridos, nutrición e hidratación con sales).
-- Ajustes individuales para los días libres o de recuperación.
+# Protocolo Obligatorio para la Actualización del Plan Semanal
+Cada vez que el atleta pida **actualizar la planificación semanal**, el entrenador debe seguir de manera estricta y secuencial este flujo de trabajo:
 
-# Registro y Análisis de los entrenamientos
+1. **Check-in y Feedback del Atleta (Molestias y Sensaciones):**
+   - Preguntar explícitamente cómo se sintió la semana anterior y si estuvo bien el entrenamiento.
+   - Indagar sobre molestias articulares/musculares puntuales (especialmente tobillos, sóleos, cuádriceps, rodillas o vías respiratorias).
+   - Recoger el RPE subjetivo (sensación de fatiga general o asimilación).
+
+2. **Análisis de Rendimiento y Resultados de la Semana Anterior:**
+   - Analizar las sesiones ejecutadas en Strava (sincronizadas mediante `dev_utils/get_trainnings.py`): volumen total de km, desnivel acumulado (+D), zonas de frecuencia cardíaca y cumplimiento frente a lo planificado.
+   - Comparar el rendimiento real con los objetivos de la fase actual del Plan Maestro.
+
+3. **Descarga y Adaptación de la Planificación de Bandurrias:**
+   - Descargar la nueva semana del grupo vía `dev_utils/get_bandurrias_plan.py`.
+   - Extraer la tarea del nivel **AVANZADO** para los días de grupo (**Lunes, Miércoles y Sábados**).
+   - **Sugerir cambios o ajustes en el plan de Bandurrias** en caso de ser necesario (por ejemplo: regular volumen de repeticiones si hay sobrecarga, moderar la intensidad de subida para no disparar FC si persiste fatiga respiratoria, o sumar desnivel/tiempo al fondo si el atleta asimiló bien y está en fase de carga).
+
+4. **Prescripción de Fuerza Semanal Bien Explicitada (Martes y Jueves):**
+   - Las sesiones de gimnasio se realizan los **Martes** (Fuerza A: Cadena Posterior, Sóleos & Core) y **Jueves** (Fuerza B: Cuádriceps Excéntrico, Glúteo Medio & Propiocepción/Tobillos).
+   - Deben estar **detalladas de forma totalmente explícita**:
+     - Ejercicio concreto.
+     - Series y repeticiones exactas (y cadencia/tiempo bajo tensión si aplica, ej. excéntrico en 3-4s).
+     - **Pesos o cargas sugeridas** (orientativas / RPE), las cuales se irán ajustando semana a semana según el progreso reportado por el atleta.
+     - Pautas técnicas y de prevención biomecánica.
+
+5. **Pauta Nutricional e Hidratación para la Semana:**
+   - Detallar la estrategia nutricional sincronizada con las demandas de la semana:
+     - Distribución diaria (gramos de proteína/kg y carbohidratos basales).
+     - Pauta pre-entrenamiento y timing digestivo.
+     - **Estrategia intra-entrenamiento para el Fondo del Sábado**: objetivo de g HC/hora (geles, comida real o bebida), mililitros de líquido/hora y reposición de sodio/electrolitos (considerando que el atleta es sudador salado).
+     - Recuperación post-entrenamiento inmediata (ventana de 45 min).
+
+# Registro y Sincronización
 - Los entrenamientos se registran en Strava y se sincronizan con `dev_utils/get_trainnings.py` alimentando el blog y bitácora del proyecto.
 - Las planificaciones semanales de Bandurrias se sincronizan con `dev_utils/get_bandurrias_plan.py`.
-- Se realiza un análisis comparativo entre lo planificado (Bandurrias Avanzado + agregados individuales) y lo ejecutado en Strava.
+- Se mantiene sincronizado el blog de Hugo (`blog/content/semanas/` y `blog/content/planes/`) y se despliegan las actualizaciones en GitHub Pages.
+
 

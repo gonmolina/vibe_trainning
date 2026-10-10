@@ -4,7 +4,7 @@ date: 2026-04-06
 categories: ["Planes"]
 tags: ["Ultra", "60km", "Nono"]
 type: "page"
-weight: 1
+weight: 4
 ---
 
 # Plan de Entrenamiento Ultra: Rumbo a los 60km (11 de Julio 2026)

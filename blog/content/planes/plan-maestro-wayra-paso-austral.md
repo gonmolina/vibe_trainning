@@ -4,7 +4,7 @@ date: 2026-10-09
 categories: ["Planes"]
 tags: ["Wayra", "PasoAustral", "Avanzado", "Bandurrias"]
 type: "page"
-weight: 2
+weight: 1
 ---
 
 # 🏔️ Plan Maestro de Periodización: Camino a Desafío Wayra y El Paso Austral

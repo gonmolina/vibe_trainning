@@ -1,6 +1,6 @@
 ---
 title: "Planes de Entrenamiento"
-description: "Estrategia general y planificación semanal."
+description: "Estrategia general y planificación de objetivos."
 ---
 
-Aquí se encuentran los planes maestros y semanales para la preparación de los objetivos (25km Villa La Angostura y 60km Nono).
+Aquí se encuentran los planes maestros de periodización y objetivos de carrera.

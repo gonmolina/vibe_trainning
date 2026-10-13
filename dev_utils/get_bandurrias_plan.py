@@ -177,8 +177,8 @@ def format_group_session(session):
         html.append('</div>')
 
     # Note / Material
-    note = session.get("note", {})
-    if note.get("text"):
+    note = session.get("note") or {}
+    if note and isinstance(note, dict) and note.get("text"):
         html.append('<div class="session-note">')
         html.append(f'<strong>⚠️ {note.get("strong", "Importante:")}</strong> {note.get("text").replace(chr(10), "<br>")}')
         html.append('</div>')

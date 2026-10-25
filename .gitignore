@@ -13,3 +13,7 @@ blog/public/
 # Local credentials
 .env
 bandurrias_config.json
+
+# Generated documents
+*.pdf
+

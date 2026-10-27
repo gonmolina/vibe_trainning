@@ -1,0 +1,54 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+{{- $latest := index (where .RegularPages "Section" "semanas").ByDate.Reverse 0 }}
+
+{{- if $latest }}
+<div style="margin-bottom: 2rem; padding: 1rem 1.25rem; background: var(--entry); border: 2px solid #10b981; border-radius: 8px;">
+  <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
+    <span style="font-size: 0.85rem; font-weight: 700; color: #10b981; text-transform: uppercase; letter-spacing: 0.5px;">⚡ Planificación en Curso</span>
+    <span style="font-size: 0.85rem; color: var(--secondary);">{{ $latest.Date.Format "02/01/2006" }}</span>
+  </div>
+  <h2 style="margin: 0 0 0.5rem 0; font-size: 1.4rem;">
+    <a href="{{ $latest.RelPermalink }}" style="color: var(--primary); text-decoration: none;">{{ $latest.Title }}</a>
+  </h2>
+  <div style="font-size: 0.95rem; color: var(--secondary); margin-bottom: 1rem;">
+    Consulta abajo el detalle completo de la semana activa con puntos de encuentro, horarios y tu tarea de Avanzado.
+  </div>
+  <a href="{{ $latest.RelPermalink }}" style="display: inline-block; padding: 0.4rem 0.8rem; background: #10b981; color: white; border-radius: 6px; font-weight: 600; font-size: 0.9rem; text-decoration: none;">
+    Ver Semana Completa en Página Individual →
+  </a>
+</div>
+
+<div class="post-content md-content" style="margin-bottom: 3rem;">
+  {{ $latest.Content }}
+</div>
+
+<hr style="border: 0; border-top: 1px solid var(--border); margin: 3rem 0 2rem 0;">
+
+<h3 style="margin-bottom: 1rem;">🗂️ Historial de Semanas Anteriores</h3>
+<div style="display: grid; gap: 0.75rem;">
+  {{- range (where .RegularPages "Section" "semanas").ByDate.Reverse }}
+  <div style="padding: 0.75rem 1rem; background: var(--entry); border: 1px solid var(--border); border-radius: 6px; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <a href="{{ .RelPermalink }}" style="font-weight: 600; color: var(--primary); text-decoration: none;">{{ .Title }}</a>
+    </div>
+    <span style="font-size: 0.85rem; color: var(--secondary);">{{ .Date.Format "02/01/2006" }}</span>
+  </div>
+  {{- end }}
+</div>
+
+{{- else }}
+<p>No hay semanas disponibles.</p>
+{{- end }}
+
+{{- end }}

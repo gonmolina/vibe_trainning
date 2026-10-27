@@ -31,6 +31,10 @@ theme = 'PaperMod'
     url = "entrenamientos"
     weight = 20
   [[menu.main]]
+    name = "Nutrición"
+    url = "nutricion"
+    weight = 25
+  [[menu.main]]
     name = "Planes Maestros"
     url = "planes"
     weight = 30

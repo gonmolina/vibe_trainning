@@ -89,7 +89,11 @@
 
 #include "pre_entreno/tostadas_batata_prerunning.typ"
 
-#v(16pt)
+#v(14pt)
+
+#include "pre_entreno/pancakes_avena_huevo_batata.typ"
+
+#pagebreak()
 
 // ==================== SECCIÓN 3: DÉFICIT & DÍAS LIGHT ====================
 #text(size: 15pt, weight: "bold", fill: rgb("#2f855a"))[
@@ -102,7 +106,11 @@
 
 #include "deficit_light/ensalada_atun_huevo_emulsionada.typ"
 
-#v(16pt)
+#v(14pt)
+
+#include "deficit_light/tortilla_espinaca_zapallito_queso.typ"
+
+#pagebreak()
 
 // ==================== SECCIÓN 4: DESAYUNOS Y MERIENDAS ====================
 #text(size: 15pt, weight: "bold", fill: rgb("#3182ce"))[
@@ -114,4 +122,13 @@
 #v(6pt)
 
 #include "desayunos_meriendas/huevos_revueltos_cremosos_tomate_queso.typ"
+
+#v(14pt)
+
+#include "desayunos_meriendas/huevos_rellenos_atun_fit.typ"
+
+#v(14pt)
+
+#include "desayunos_meriendas/wrap_crepe_huevo_pollo.typ"
+
 

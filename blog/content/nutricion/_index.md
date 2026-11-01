@@ -116,3 +116,28 @@ weight: 1
 - **Técnica clave:** Fuego mínimo; saltear el tomate 1 min, volcar los huevos y revolver constantemente. Retirar cuando sigan húmedos y brillantes agregando el queso para que se funda con el calor residual (cremosidad natural sin manteca ni crema).
 - **Adaptación:** En días de running de tarde, acompañar con 2 tostadas de pan o 1 taza de arroz blanco para sumar los carbohidratos previos a la montaña.
 
+### 🥞 5. Pancakes de Avena y Huevo con Dulce de Batata
+- **Momento ideal:** Merienda energética pre-running (16:30 hs) o desayuno de fondo de sábado.
+- **Valores por porción:** **~330 kcal | 18 g Proteína | 45 g Carbohidratos | 9 g Grasas**.
+- **Ingredientes:** 2 huevos enteros, 45g de avena en hojuelas (4 cdas.), 50ml de leche descremada, canela y vainilla. Topping: 40g de dulce de batata en rodajas o 1 cda. de miel + 1/2 banana.
+- **Preparación:** Licuar o batir los ingredientes. Cocinar en sartén con rocío vegetal vuelta y vuelta (2 min por lado). Provee carbohidratos complejos y simples con digestión ligera.
+
+### 🥧 6. Tortilla Rápida de Espinaca, Zapallitos y Queso Magro
+- **Momento ideal:** Cena liviana y súper saciante en días de fuerza (Martes/Jueves) o descanso (Domingo).
+- **Valores por porción:** **~290 kcal | 25 g Proteína | 9 g Carbohidratos | 17 g Grasas**.
+- **Ingredientes:** 3 huevos enteros, 1 atado de espinaca picada (o 2 zapallitos rallados y escurridos), 1/2 cebolla salteada con rocío vegetal, 35g de queso magro, sal, pimienta y nuez moscada.
+- **Beneficio:** Plato gigante en volumen y fibra con menos de 300 kcal. Apaga la ansiedad nocturna sin tocar harinas.
+
+### 🥚 7. Huevos Rellenos Deportivos con Atún (Batch Cooking)
+- **Momento ideal:** Almuerzo frío para oficina o snack proteico post-gimnasio (duran 4 días en la heladera).
+- **Valores (4 mitades):** **~245 kcal | 28 g Proteína | 3 g Carbohidratos | 13 g Grasas**.
+- **Ingredientes:** 4 huevos duros partidos al medio, 1 lata de atún al natural escurrida, 2 cdas. de queso crema light, 1 cdita. de mostaza y pimentón.
+- **Preparación:** Pisar 2 de las yemas con el atún, queso crema light y mostaza. Rellenar las 8 claras con la pasta. Cero grasa pesada y proteína pura lista en un tupper.
+
+### 🫓 8. Wrap / Crepe de Huevo con Pollo Desmenuzado y Vegetales
+- **Momento ideal:** Almuerzo rápido o cena informal sin harinas refinadas.
+- **Valores por porción:** **~340 kcal | 38 g Proteína | 5 g Carbohidratos | 18 g Grasas**.
+- **Ingredientes:** Masa: 2 huevos batidos con 1 cda. de agua y sal. Relleno: 120g pechuga de pollo desmenuzada, tomate en rodajas, lechuga y mostaza/queso magro.
+- **Preparación:** Volcar el huevo batido en sartén amplia antiadherente como panqueque fino. Dorar 1 min por lado, retirar, rellenar y enrollar como burrito.
+
+

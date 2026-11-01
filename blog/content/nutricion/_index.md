@@ -1,7 +1,7 @@
 ---
 title: "Plan Nutricional: Periodización y Descenso (80.1 kg ➔ 75 kg)"
-date: 2026-10-27
-description: "Estrategia nutricional periodizada para trail running, control del déficit calórico, días tipo A/B/C y recetario deportivo."
+date: 2026-11-01
+description: "Estrategia nutricional periodizada para trail running, control del déficit calórico sin hipoglucemias, días tipo A/B/C y recetario deportivo."
 weight: 1
 ---
 
@@ -11,19 +11,28 @@ weight: 1
 **Atleta:** Gonzalo Molina (45 años)  
 **Peso Oficial de Arranque:** **80.1 kg** *(27 de Octubre de 2026)*  
 **Meta Desafío Wayra (13 Dic):** **75.0 – 76.0 kg** *(~5 kg de grasa corporal)*  
-**Ventana Temporal:** 7 semanas (~600 a 700 g / semana)  
+**Ventana Temporal:** 6 semanas restantes (~600 a 700 g / semana)  
 **Suplementación Base:** **5 g diarios de Creatina** (fuerza en cuestas y protección muscular anti-catabólica).
 
 ---
 
-## 🎯 Pilares del Plan de Descenso
+> [!IMPORTANT]
+> ### ⚡ Calibración Post-Semana 24 (Ajuste Anti-Mareos & Rendimiento)
+> Tras registrar fatiga por déficit excesivo de carbohidratos en las cuestas intensas y sensación de mareo, se recalibró la ingesta:
+> 1. **Carbohidratos fijos en el almuerzo de días de running:** 1 porción fija de arroz o papas/batatas al mediodía (150–180g) para llegar con glucógeno hepático cargado a la tarde.
+> 2. **Merienda pre-running reforzada:** 2 tostadas con dulce de batata (50–60g) + 1 fruta (plátano). Cero restricciones de hidratos 2 horas antes de Bandurrias.
+> 3. **Flexibilidad en días de fuerza/descanso:** No cortar los hidratos a cero; sumar calabaza o fruta extra para evitar hambre compensatoria nocturna.
+
+---
+
+## 🎯 Pilares del Plan de Descenso Sostenible
 
 1. **Proteína Blindada (~160 g diarios / 2.0 g/kg):**
    - Asegura que el cuerpo no queme masa muscular de las piernas durante el déficit calórico.
    - Brinda máxima saciedad para no pasar hambre biológica durante el día.
 2. **Periodización de Carbohidratos (Fuel for the work required):**
-   - No se come poco todos los días: los carbohidratos se concentran en la **merienda de los días de running** (2h antes de Bandurrias) y en el desayuno/fondo del sábado.
-   - En días de fuerza o descanso se reduce el carbohidrato para forzar la quema de tejido graso.
+   - No se come poco todos los días: los carbohidratos se concentran en el **almuerzo y merienda de los días de running** (Lunes, Miércoles y Sábados).
+   - En días de fuerza o descanso se modera la porción de hidratos pero sin llegar a extremos cetogénicos.
 3. **El Control de las Grasas Ocultas (La Regla del Aceite):**
    - El aceite de oliva es saludable pero muy calórico (~125 kcal por cucharada).
    - Ensaladas preparadas con **vinagreta emulsionada:** 1 cucharada sopera de aceite + mucho jugo de limón + agua tibia + especias (orégano/sal/pimienta). Esto triplica el volumen y moja toda la ensalada con sabor sin sumar 400 kcal de aceite a ojo.
@@ -33,32 +42,32 @@ weight: 1
 
 ---
 
-## 📅 Las 3 Plantillas de Días Tipo
+## 📅 Las 3 Plantillas de Días Tipo (Actualizadas)
 
 ### 🔴 DÍA TIPO A: Running por la Tarde (Lunes, Miércoles y Sábados)
-*Objetivo: Combustible limpio pre-entreno, chispa en las cuestas y recuperación nocturna.*
+*Objetivo: Combustible limpio pre-entreno, glucógeno hepático pleno para cuestas/cambios de ritmo y recuperación nocturna.*
 
 | Momento | Opción 1 (Predilecta) | Opción 2 (Alternativa) |
 | :--- | :--- | :--- |
-| **08:00 Desayuno** | Batido Whey Protein (25g prot) + 1 huevo duro + 1 naranja o mandarina entera + mates amargos. | Omelette de 2 huevos enteros + 1 clara con tomate y orégano + café/té + fruta. |
-| **13:00 Almuerzo** | 200g de pechuga de pollo grillé + ensalada abundante (tomate, lechuga, cebolla con vinagreta emulsionada) + 1 papa chica (130g) o 3 cdas. de arroz. | 1 lata entera de atún al natural + 1 huevo duro + ensalada mixta grande + 3 cdas. de arroz blanco. |
-| **16:30 Merienda (Pre-Running)** | **2 tostadas de pan con dulce de batata (40–50g)** + vaso grande de agua con sales + 5g creatina. | 1 plátano maduro mediano + 2 tostadas de arroz/pan con queso untable magro y dulce de membrillo. |
-| **19:00 Running (Bandurrias)** | Hidratación con agua y sales minerales. Si la sesión supera 1h15m en montaña: 1 gel a los 45 min. | Agua con electrolitos. |
+| **08:00 Desayuno** | Batido Whey Protein (25g prot) + 1 huevo duro + 1 naranja o mandarina entera + mates amargos. | Omelette de 2 huevos enteros + 1 clara con tomate y orégano + café/té + fruta entera. |
+| **13:00 Almuerzo (Carb de Base)** | 200g de pechuga de pollo grillé o carne magra + ensalada abundante (tomate, lechuga, cebolla con vinagreta emulsionada) + **1 papa o batata mediana (~180g) O 1 taza de arroz blanco/integral (~150g)**. | 1 lata entera de atún al natural + 1 huevo duro + ensalada mixta grande + **1 taza de arroz blanco o fideos simples**. |
+| **16:30 Merienda (Pre-Running)** | **2 tostadas de pan con abundante dulce de batata (50–60g) + 1 plátano maduro** + vaso grande de agua con sales + 5g creatina. | 1 sándwich de pan blanco con queso untable magro y dulce de membrillo + 1 plátano + agua con sales. |
+| **19:00 Running (Bandurrias)** | Hidratación con agua y sales minerales. Si la sesión supera 1h15m en montaña: 1 gel a los 40–45 min. | Agua con electrolitos constantes. |
 | **21:30 Cena Post-Running** | 200g de carne vacuna magra (lomo/cuadril) + ensalada verde grande + zapallitos o calabaza al vapor + 1 fruta fresca. | 200g de pollo al horno + ensalada mixta + 1 batata chica al horno (reponer glucógeno). |
 
 ---
 
 ### 🟢 DÍA TIPO B: Fuerza por la Mañana (Martes y Jueves)
-*Objetivo: Alta síntesis proteica post-gimnasio, mínimo carbohidrato durante el día (máxima quema de grasa).*
+*Objetivo: Alta síntesis proteica post-gimnasio, carbohidratos moderados sin excesos (quema de grasa controlada).*
 
 | Momento | Menú Recomendado |
 | :--- | :--- |
 | **07:30 Pre-Fuerza** | Mates amargos + 1 vaso grande de agua (no se requiere sobrecarga de glucosa). |
 | **08:00 a 08:45** | **Entrenamiento de Fuerza en Gimnasio.** |
 | **09:00 Desayuno Post-Fuerza** | Batido de Whey Protein con leche descremada + 1 plátano chico (acelera síntesis proteica) + mates amargos en el trabajo. |
-| **13:00 Almuerzo (Low-Carb)** | 220g de bife de carne vacuna magra a la plancha + ensalada grande con huevo duro y vinagreta emulsionada. *(Cero arroz, papas ni pastas).* |
+| **13:00 Almuerzo** | 220g de bife de carne vacuna magra a la plancha + ensalada grande con huevo duro y vinagreta emulsionada + **porción chica de calabaza al horno o zanahorias cocidas**. |
 | **17:00 Merienda** | **1 lata entera de atún al natural** con rodajas de tomate y orégano **O** 200g de yogur natural descremado con 5 mariposas de nuez. |
-| **21:30 Cena (Quema de Grasa)** | 200g de pechuga de pollo al horno o pescado blanco + montaña de verduras verdes al vapor (brócoli, zapallitos, acelga). Cero harinas ni azúcar. |
+| **21:30 Cena (Ligera & Proteica)** | 200g de pechuga de pollo al horno o pescado blanco + montaña de verduras verdes al vapor (brócoli, zapallitos, acelga). |
 
 ---
 

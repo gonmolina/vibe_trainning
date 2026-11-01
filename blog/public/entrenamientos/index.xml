@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Entrenamientos on Trail &amp; Ultra Trail - Blog de Entrenamiento</title><link>https://gonmolina.github.io/vibe_trainning/entrenamientos/</link><description>Recent content in Entrenamientos on Trail &amp; Ultra Trail - Blog de Entrenamiento</description><generator>Hugo</generator><language>es-es</language><lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://gonmolina.github.io/vibe_trainning/entrenamientos/index.xml" rel="self" type="application/rss+xml"/><item><title>Lo del Héctor - Carbón - Estratos</title><link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-24_20714279278/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-24_20714279278/</guid><description>&lt;h2 id="-estadísticas-clave"&gt;📊 Estadísticas Clave&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Entrenamientos on Trail &amp; Ultra Trail - Blog de Entrenamiento</title><link>https://gonmolina.github.io/vibe_trainning/entrenamientos/</link><description>Recent content in Entrenamientos on Trail &amp; Ultra Trail - Blog de Entrenamiento</description><generator>Hugo</generator><language>es-es</language><lastBuildDate>Sat, 31 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://gonmolina.github.io/vibe_trainning/entrenamientos/index.xml" rel="self" type="application/rss+xml"/><item><title>López y extremo encantado</title><link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-31_20805571886/</link><pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate><guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-31_20805571886/</guid><description>&lt;h2 id="-estadísticas-clave"&gt;📊 Estadísticas Clave&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 17.38 km&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 1081.0 m 🏔️&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 163:36&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 17.7 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 1265.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 161:36&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755123158842" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526398463675" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -14,7 +14,481 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755123158842');
+var map = L.map('map-1793541526398463675');
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
+}).addTo(map);
+new L.GPX("\/vibe_trainning\/entrenamientos\/2026-10-31_20805571886\/activity.gpx", {
+async: true,
+marker_options: {
+startIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png',
+endIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png',
+shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png'
+}
+}).on('loaded', function(e) {
+map.fitBounds(e.target.getBounds());
+}).addTo(map);
+}
+if (document.readyState === 'complete') {
+initMap();
+} else {
+window.addEventListener('load', initMap);
+}
+})();
+&lt;/script&gt;
+&lt;h2 id="-vueltas-laps"&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Lap&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Distancia&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Tiempo&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Ritmo&lt;/th&gt;
+&lt;th style="text-align: left"&gt;FC Med&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;1&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1.5 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;10:41&lt;/td&gt;
+&lt;td style="text-align: left"&gt;7:07&lt;/td&gt;
+&lt;td style="text-align: left"&gt;121.2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;2&lt;/td&gt;
+&lt;td style="text-align: left"&gt;4.48 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;60:58&lt;/td&gt;
+&lt;td style="text-align: left"&gt;13:36&lt;/td&gt;
+&lt;td style="text-align: left"&gt;168.9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;3&lt;/td&gt;
+&lt;td style="text-align: left"&gt;5.95 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;30:25&lt;/td&gt;
+&lt;td style="text-align: left"&gt;5:06&lt;/td&gt;
+&lt;td style="text-align: left"&gt;160.8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;4&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1.42 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;25:59&lt;/td&gt;
+&lt;td style="text-align: left"&gt;18:17&lt;/td&gt;
+&lt;td style="text-align: left"&gt;165.1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;5&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1.92 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;20:42&lt;/td&gt;
+&lt;td style="text-align: left"&gt;10:46&lt;/td&gt;
+&lt;td style="text-align: left"&gt;143.8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;6&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2.28 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;12:50&lt;/td&gt;
+&lt;td style="text-align: left"&gt;5:37&lt;/td&gt;
+&lt;td style="text-align: left"&gt;164.6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Morning Weight Training</title><link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-30_20790458981/</link><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate><guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-30_20790458981/</guid><description>&lt;h2 id="-estadísticas-clave"&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 86:55&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+&lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
+&lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
+&lt;div id="map-1793541526240189372" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;script&gt;
+(function() {
+function initMap() {
+if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
+setTimeout(initMap, 100);
+return;
+}
+var map = L.map('map-1793541526240189372');
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
+}).addTo(map);
+new L.GPX("\/vibe_trainning\/entrenamientos\/2026-10-30_20790458981\/activity.gpx", {
+async: true,
+marker_options: {
+startIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png',
+endIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png',
+shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png'
+}
+}).on('loaded', function(e) {
+map.fitBounds(e.target.getBounds());
+}).addTo(map);
+}
+if (document.readyState === 'complete') {
+initMap();
+} else {
+window.addEventListener('load', initMap);
+}
+})();
+&lt;/script&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Subí bajas largooooos</title><link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-28_20772005743/</link><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate><guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-28_20772005743/</guid><description>&lt;h2 id="-estadísticas-clave"&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 7.79 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 395.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 53:38&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+&lt;div id="map-1793541526399220877" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;script&gt;
+(function() {
+function initMap() {
+if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
+setTimeout(initMap, 100);
+return;
+}
+var map = L.map('map-1793541526399220877');
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
+}).addTo(map);
+new L.GPX("\/vibe_trainning\/entrenamientos\/2026-10-28_20772005743\/activity.gpx", {
+async: true,
+marker_options: {
+startIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png',
+endIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png',
+shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png'
+}
+}).on('loaded', function(e) {
+map.fitBounds(e.target.getBounds());
+}).addTo(map);
+}
+if (document.readyState === 'complete') {
+initMap();
+} else {
+window.addEventListener('load', initMap);
+}
+})();
+&lt;/script&gt;
+&lt;h2 id="-vueltas-laps"&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Lap&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Distancia&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Tiempo&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Ritmo&lt;/th&gt;
+&lt;th style="text-align: left"&gt;FC Med&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;1&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1.46 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;11:10&lt;/td&gt;
+&lt;td style="text-align: left"&gt;7:38&lt;/td&gt;
+&lt;td style="text-align: left"&gt;135.4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;2&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.79 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;4:47&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6:03&lt;/td&gt;
+&lt;td style="text-align: left"&gt;158.4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;3&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1.02 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6:39&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6:31&lt;/td&gt;
+&lt;td style="text-align: left"&gt;171.3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;4&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.33 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1:43&lt;/td&gt;
+&lt;td style="text-align: left"&gt;5:12&lt;/td&gt;
+&lt;td style="text-align: left"&gt;168.7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;5&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.34 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2:58&lt;/td&gt;
+&lt;td style="text-align: left"&gt;8:43&lt;/td&gt;
+&lt;td style="text-align: left"&gt;169.1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;6&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.68 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;4:49&lt;/td&gt;
+&lt;td style="text-align: left"&gt;7:04&lt;/td&gt;
+&lt;td style="text-align: left"&gt;164.7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;7&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.32 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1:39&lt;/td&gt;
+&lt;td style="text-align: left"&gt;5:09&lt;/td&gt;
+&lt;td style="text-align: left"&gt;169.8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;8&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.35 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2:51&lt;/td&gt;
+&lt;td style="text-align: left"&gt;8:08&lt;/td&gt;
+&lt;td style="text-align: left"&gt;169.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;9&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.33 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1:43&lt;/td&gt;
+&lt;td style="text-align: left"&gt;5:12&lt;/td&gt;
+&lt;td style="text-align: left"&gt;169.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;10&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.34 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2:40&lt;/td&gt;
+&lt;td style="text-align: left"&gt;7:50&lt;/td&gt;
+&lt;td style="text-align: left"&gt;173.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;11&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.33 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1:45&lt;/td&gt;
+&lt;td style="text-align: left"&gt;5:18&lt;/td&gt;
+&lt;td style="text-align: left"&gt;170.4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;12&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1.56 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;10:53&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6:58&lt;/td&gt;
+&lt;td style="text-align: left"&gt;152.8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Morning Weight Training</title><link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-27_20750177095/</link><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate><guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-27_20750177095/</guid><description>&lt;h2 id="-estadísticas-clave"&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 69:41&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+&lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
+&lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
+&lt;div id="map-1793541526241913064" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;script&gt;
+(function() {
+function initMap() {
+if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
+setTimeout(initMap, 100);
+return;
+}
+var map = L.map('map-1793541526241913064');
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
+}).addTo(map);
+new L.GPX("\/vibe_trainning\/entrenamientos\/2026-10-27_20750177095\/activity.gpx", {
+async: true,
+marker_options: {
+startIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png',
+endIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png',
+shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png'
+}
+}).on('loaded', function(e) {
+map.fitBounds(e.target.getBounds());
+}).addTo(map);
+}
+if (document.readyState === 'complete') {
+initMap();
+} else {
+window.addEventListener('load', initMap);
+}
+})();
+&lt;/script&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Cross con cambios de ritmos</title><link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-26_20744273856/</link><pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate><guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-26_20744273856/</guid><description>&lt;h2 id="-estadísticas-clave"&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 10.22 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 347.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 69:27&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+&lt;div id="map-1793541526400187417" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;script&gt;
+(function() {
+function initMap() {
+if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
+setTimeout(initMap, 100);
+return;
+}
+var map = L.map('map-1793541526400187417');
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
+}).addTo(map);
+new L.GPX("\/vibe_trainning\/entrenamientos\/2026-10-26_20744273856\/activity.gpx", {
+async: true,
+marker_options: {
+startIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png',
+endIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png',
+shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png'
+}
+}).on('loaded', function(e) {
+map.fitBounds(e.target.getBounds());
+}).addTo(map);
+}
+if (document.readyState === 'complete') {
+initMap();
+} else {
+window.addEventListener('load', initMap);
+}
+})();
+&lt;/script&gt;
+&lt;h2 id="-vueltas-laps"&gt;⏱️ Vueltas (Laps)&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Lap&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Distancia&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Tiempo&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Ritmo&lt;/th&gt;
+&lt;th style="text-align: left"&gt;FC Med&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;1&lt;/td&gt;
+&lt;td style="text-align: left"&gt;4.04 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;30:04&lt;/td&gt;
+&lt;td style="text-align: left"&gt;7:26&lt;/td&gt;
+&lt;td style="text-align: left"&gt;133.3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;2&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.01 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0:04&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6:40&lt;/td&gt;
+&lt;td style="text-align: left"&gt;135.3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;3&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.43 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;3:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6:58&lt;/td&gt;
+&lt;td style="text-align: left"&gt;157.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;4&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.31 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6:27&lt;/td&gt;
+&lt;td style="text-align: left"&gt;136.7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;5&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.42 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;3:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;7:08&lt;/td&gt;
+&lt;td style="text-align: left"&gt;156.7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;6&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.25 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;8:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;147.8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;7&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.45 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;3:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6:40&lt;/td&gt;
+&lt;td style="text-align: left"&gt;165.6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;8&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.22 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;9:05&lt;/td&gt;
+&lt;td style="text-align: left"&gt;145.2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;9&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.62 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;3:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;4:50&lt;/td&gt;
+&lt;td style="text-align: left"&gt;155.9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;10&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.24 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;8:20&lt;/td&gt;
+&lt;td style="text-align: left"&gt;158.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;11&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.67 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;3:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;4:28&lt;/td&gt;
+&lt;td style="text-align: left"&gt;162.6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;12&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.22 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;9:05&lt;/td&gt;
+&lt;td style="text-align: left"&gt;163.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;13&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.49 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;3:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6:07&lt;/td&gt;
+&lt;td style="text-align: left"&gt;172.3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;14&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.28 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;7:08&lt;/td&gt;
+&lt;td style="text-align: left"&gt;149.7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;15&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1.58 km&lt;/td&gt;
+&lt;td style="text-align: left"&gt;10:00&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6:19&lt;/td&gt;
+&lt;td style="text-align: left"&gt;149.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Lo del Héctor - Carbón - Estratos</title><link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-24_20714279278/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate><guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-24_20714279278/</guid><description>&lt;h2 id="-estadísticas-clave"&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 17.38 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 1081.0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 163:36&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+&lt;div id="map-1793541526401146403" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;script&gt;
+(function() {
+function initMap() {
+if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
+setTimeout(initMap, 100);
+return;
+}
+var map = L.map('map-1793541526401146403');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -185,7 +659,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755123660087" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526402311340" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -193,7 +667,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755123660087');
+var map = L.map('map-1793541526402311340');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -280,7 +754,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755124166431" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526404359373" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -288,7 +762,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755124166431');
+var map = L.map('map-1793541526404359373');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -417,7 +891,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755124694053" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526405214246" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -425,7 +899,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755124694053');
+var map = L.map('map-1793541526405214246');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -561,7 +1035,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755125452097" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526405983211" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -569,7 +1043,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755125452097');
+var map = L.map('map-1793541526405983211');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -796,7 +1270,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755125762191" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526406336695" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -804,7 +1278,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755125762191');
+var map = L.map('map-1793541526406336695');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -884,7 +1358,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755126940174" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526407380158" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -892,7 +1366,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755126940174');
+var map = L.map('map-1793541526407380158');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -1196,7 +1670,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755127337033" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526407785047" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -1204,7 +1678,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755127337033');
+var map = L.map('map-1793541526407785047');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -1298,7 +1772,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755127623274" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526408025332" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -1306,7 +1780,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755127623274');
+var map = L.map('map-1793541526408025332');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -1372,7 +1846,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755127836485" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526408247364" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -1380,7 +1854,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755127836485');
+var map = L.map('map-1793541526408247364');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -1439,7 +1913,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755128163078" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526408655730" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -1447,7 +1921,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755128163078');
+var map = L.map('map-1793541526408655730');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -1548,7 +2022,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755128754023" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526409405488" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -1556,7 +2030,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755128754023');
+var map = L.map('map-1793541526409405488');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -1744,7 +2218,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754997308175" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526271752345" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -1752,7 +2226,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754997308175');
+var map = L.map('map-1793541526271752345');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -1783,7 +2257,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755129022953" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526409711816" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -1791,7 +2265,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755129022953');
+var map = L.map('map-1793541526409711816');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -1850,7 +2324,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755129645475" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526410293463" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -1858,7 +2332,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755129645475');
+var map = L.map('map-1793541526410293463');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -2029,7 +2503,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755130030633" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526410690638" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -2037,7 +2511,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755130030633');
+var map = L.map('map-1793541526410690638');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -2145,7 +2619,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755130527660" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526411188981" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -2153,7 +2627,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755130527660');
+var map = L.map('map-1793541526411188981');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -2306,7 +2780,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755002013828" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526284074975" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -2314,7 +2788,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755002013828');
+var map = L.map('map-1793541526284074975');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -2345,7 +2819,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755131154930" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526411864452" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -2353,7 +2827,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755131154930');
+var map = L.map('map-1793541526411864452');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -2541,7 +3015,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755003669955" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526285940169" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -2549,7 +3023,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755003669955');
+var map = L.map('map-1793541526285940169');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -2580,7 +3054,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755131609302" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526412395245" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -2588,7 +3062,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755131609302');
+var map = L.map('map-1793541526412395245');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -2710,7 +3184,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755132070365" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526412886785" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -2718,7 +3192,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755132070365');
+var map = L.map('map-1793541526412886785');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -2857,7 +3331,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755011222842" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526288393332" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -2865,7 +3339,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755011222842');
+var map = L.map('map-1793541526288393332');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -2896,7 +3370,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755132661851" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526413585109" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -2904,7 +3378,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755132661851');
+var map = L.map('map-1793541526413585109');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -3082,7 +3556,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755134182146" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526414208854" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -3090,7 +3564,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755134182146');
+var map = L.map('map-1793541526414208854');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -3240,7 +3714,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755135436556" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526414959153" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -3248,7 +3722,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755135436556');
+var map = L.map('map-1793541526414959153');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -3471,7 +3945,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755016036858" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526297221241" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -3479,7 +3953,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755016036858');
+var map = L.map('map-1793541526297221241');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -3510,7 +3984,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755135924086" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526415370936" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -3518,7 +3992,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755135924086');
+var map = L.map('map-1793541526415370936');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -3629,7 +4103,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755017266925" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526299686717" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -3637,7 +4111,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755017266925');
+var map = L.map('map-1793541526299686717');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -3668,7 +4142,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755136472586" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526415835496" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -3676,7 +4150,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755136472586');
+var map = L.map('map-1793541526415835496');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -3805,7 +4279,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755136753387" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526416053350" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -3813,7 +4287,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755136753387');
+var map = L.map('map-1793541526416053350');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -3872,7 +4346,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755137052902" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526416339109" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -3880,7 +4354,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755137052902');
+var map = L.map('map-1793541526416339109');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -3942,7 +4416,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755026454090" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526303810103" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -3950,7 +4424,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755026454090');
+var map = L.map('map-1793541526303810103');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -3981,7 +4455,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755137450802" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526416753967" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -3989,7 +4463,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755137450802');
+var map = L.map('map-1793541526416753967');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -4093,7 +4567,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755027800925" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526305081428" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -4101,7 +4575,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755027800925');
+var map = L.map('map-1793541526305081428');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -4132,7 +4606,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755137708352" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526417017165" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -4140,7 +4614,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755137708352');
+var map = L.map('map-1793541526417017165');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -4199,7 +4673,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755137944364" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526417226142" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -4207,7 +4681,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755137944364');
+var map = L.map('map-1793541526417226142');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -4269,7 +4743,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755029118898" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526307456777" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -4277,7 +4751,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755029118898');
+var map = L.map('map-1793541526307456777');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -4311,7 +4785,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755027525673" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526306121764" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -4319,7 +4793,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755027525673');
+var map = L.map('map-1793541526306121764');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -4353,7 +4827,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755028175013" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526308206345" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -4361,7 +4835,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755028175013');
+var map = L.map('map-1793541526308206345');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -4392,7 +4866,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755138687761" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526418159891" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -4400,7 +4874,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755138687761');
+var map = L.map('map-1793541526418159891');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -4603,7 +5077,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755026669444" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526305963261" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -4611,7 +5085,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755026669444');
+var map = L.map('map-1793541526305963261');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -4642,7 +5116,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755139097693" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526418608351" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -4650,7 +5124,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755139097693');
+var map = L.map('map-1793541526418608351');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -4775,7 +5249,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755026486167" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526304285253" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -4783,7 +5257,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755026486167');
+var map = L.map('map-1793541526304285253');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -4814,7 +5288,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755139368727" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526418886126" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -4822,7 +5296,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755139368727');
+var map = L.map('map-1793541526418886126');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -4902,7 +5376,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755139986621" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526419511684" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -4910,7 +5384,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755139986621');
+var map = L.map('map-1793541526419511684');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -5109,7 +5583,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755140279093" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526419997504" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -5117,7 +5591,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755140279093');
+var map = L.map('map-1793541526419997504');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -5197,7 +5671,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755140473119" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526420248328" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -5205,7 +5679,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755140473119');
+var map = L.map('map-1793541526420248328');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -5264,7 +5738,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755140834465" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526420625727" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -5272,7 +5746,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755140834465');
+var map = L.map('map-1793541526420625727');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -5380,7 +5854,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755141084792" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526420867044" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -5388,7 +5862,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755141084792');
+var map = L.map('map-1793541526420867044');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -5454,7 +5928,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755141345066" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526421143176" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -5462,7 +5936,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755141345066');
+var map = L.map('map-1793541526421143176');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -5542,7 +6016,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755141573514" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526421401464" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -5550,7 +6024,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755141573514');
+var map = L.map('map-1793541526421401464');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -5616,7 +6090,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755142196797" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526423618700" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -5624,7 +6098,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755142196797');
+var map = L.map('map-1793541526423618700');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -5823,7 +6297,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755142929626" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526424555275" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -5831,7 +6305,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755142929626');
+var map = L.map('map-1793541526424555275');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -6009,7 +6483,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755144890978" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526426119281" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -6017,7 +6491,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755144890978');
+var map = L.map('map-1793541526426119281');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -6503,7 +6977,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755145396010" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526426891631" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -6511,7 +6985,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755145396010');
+var map = L.map('map-1793541526426891631');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -6650,7 +7124,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755015582266" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526292666696" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -6658,7 +7132,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755015582266');
+var map = L.map('map-1793541526292666696');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -6689,7 +7163,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755145663698" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526427259944" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -6697,7 +7171,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755145663698');
+var map = L.map('map-1793541526427259944');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -6763,7 +7237,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755146289666" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526427977813" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -6771,7 +7245,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755146289666');
+var map = L.map('map-1793541526427977813');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -6977,7 +7451,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755124030669" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526401115636" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -6985,7 +7459,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755124030669');
+var map = L.map('map-1793541526401115636');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -7051,7 +7525,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755146711489" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526428443796" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -7059,7 +7533,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755146711489');
+var map = L.map('map-1793541526428443796');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -7177,7 +7651,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755011886307" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526286140911" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -7185,7 +7659,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755011886307');
+var map = L.map('map-1793541526286140911');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -7216,7 +7690,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755147063207" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526428835391" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -7224,7 +7698,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755147063207');
+var map = L.map('map-1793541526428835391');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -7325,7 +7799,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755147890645" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526429705703" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -7333,7 +7807,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755147890645');
+var map = L.map('map-1793541526429705703');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -7591,7 +8065,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755011237518" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526282960722" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -7599,7 +8073,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755011237518');
+var map = L.map('map-1793541526282960722');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -7630,7 +8104,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755148141442" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526429971495" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -7638,7 +8112,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755148141442');
+var map = L.map('map-1793541526429971495');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -7700,7 +8174,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755007826617" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526283654156" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -7708,7 +8182,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755007826617');
+var map = L.map('map-1793541526283654156');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -7739,7 +8213,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755148521761" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526430318888" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -7747,7 +8221,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755148521761');
+var map = L.map('map-1793541526430318888');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -7848,7 +8322,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755149157377" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526431009798" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -7856,7 +8330,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755149157377');
+var map = L.map('map-1793541526431009798');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -8034,7 +8508,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755149859110" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526431674739" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -8042,7 +8516,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755149859110');
+var map = L.map('map-1793541526431674739');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -8251,7 +8725,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755004680379" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526280063386" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -8259,7 +8733,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755004680379');
+var map = L.map('map-1793541526280063386');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -8290,7 +8764,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755150112272" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526431949979" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -8298,7 +8772,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755150112272');
+var map = L.map('map-1793541526431949979');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -8364,7 +8838,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755150340800" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526432177991" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -8372,7 +8846,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755150340800');
+var map = L.map('map-1793541526432177991');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -8438,7 +8912,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755151703182" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526433224209" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -8446,7 +8920,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755151703182');
+var map = L.map('map-1793541526433224209');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -8767,7 +9241,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942755001293722" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526274227599" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -8775,7 +9249,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755001293722');
+var map = L.map('map-1793541526274227599');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -8806,7 +9280,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755152470723" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526433481946" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -8814,7 +9288,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755152470723');
+var map = L.map('map-1793541526433481946');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -8873,7 +9347,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755153313728" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526433811647" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -8881,7 +9355,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755153313728');
+var map = L.map('map-1793541526433811647');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -8975,7 +9449,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755153855836" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526434052062" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -8983,7 +9457,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755153855836');
+var map = L.map('map-1793541526434052062');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -9049,7 +9523,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755154472047" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526434275676" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -9057,7 +9531,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755154472047');
+var map = L.map('map-1793541526434275676');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -9123,7 +9597,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755154878843" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526434608292" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -9131,7 +9605,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755154878843');
+var map = L.map('map-1793541526434608292');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -9232,7 +9706,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755155185451" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526434903198" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -9240,7 +9714,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755155185451');
+var map = L.map('map-1793541526434903198');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -9327,7 +9801,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755156225217" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526436001642" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -9335,7 +9809,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755156225217');
+var map = L.map('map-1793541526436001642');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -9609,7 +10083,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755156579380" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526436348715" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -9617,7 +10091,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755156579380');
+var map = L.map('map-1793541526436348715');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -9711,7 +10185,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755156990504" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526436794761" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -9719,7 +10193,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755156990504');
+var map = L.map('map-1793541526436794761');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -9848,7 +10322,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755157331633" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526437177159" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -9856,7 +10330,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755157331633');
+var map = L.map('map-1793541526437177159');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -9925,7 +10399,7 @@ window.addEventListener('load', initMap);
 &lt;hr&gt;
 &lt;h2 id="-nota-del-entrenador-se-realizó-una-corrección-manual-de-este-entrenamiento-ya-que-el-reloj-se-apagó-los-datos-de-1185-km-eran-incompletos-el-mapa-a-continuación-solo-muestra-la-parte-registrada"&gt;&lt;strong&gt;⚠️ Nota del Entrenador:&lt;/strong&gt; Se realizó una corrección manual de este entrenamiento ya que el reloj se apagó. Los datos de 11.85 km eran incompletos. El mapa a continuación solo muestra la parte registrada.&lt;/h2&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755122423859" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526398717064" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -9933,7 +10407,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755122423859');
+var map = L.map('map-1793541526398717064');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -10020,7 +10494,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755157856360" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526437746704" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -10028,7 +10502,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755157856360');
+var map = L.map('map-1793541526437746704');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -10139,7 +10613,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754996117068" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526264768561" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -10147,7 +10621,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754996117068');
+var map = L.map('map-1793541526264768561');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -10178,7 +10652,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755158222113" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526438071937" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -10186,7 +10660,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755158222113');
+var map = L.map('map-1793541526438071937');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -10266,7 +10740,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755158623139" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526438506822" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -10274,7 +10748,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755158623139');
+var map = L.map('map-1793541526438506822');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -10375,7 +10849,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755159205459" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526438947598" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -10383,7 +10857,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755159205459');
+var map = L.map('map-1793541526438947598');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -10505,7 +10979,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755160073549" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526439641223" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -10513,7 +10987,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755160073549');
+var map = L.map('map-1793541526439641223');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -10719,7 +11193,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755160495973" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526440089904" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -10727,7 +11201,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755160495973');
+var map = L.map('map-1793541526440089904');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -10856,7 +11330,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755161021261" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526440612181" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -10864,7 +11338,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755161021261');
+var map = L.map('map-1793541526440612181');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -11021,7 +11495,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755161589797" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526441208135" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -11029,7 +11503,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755161589797');
+var map = L.map('map-1793541526441208135');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -11193,7 +11667,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755161826559" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526441457546" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -11201,7 +11675,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755161826559');
+var map = L.map('map-1793541526441457546');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -11270,7 +11744,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754989873229" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526258637807" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -11278,7 +11752,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754989873229');
+var map = L.map('map-1793541526258637807');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -11312,7 +11786,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754989664466" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526261871566" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -11320,7 +11794,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754989664466');
+var map = L.map('map-1793541526261871566');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -11351,7 +11825,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755162235400" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526442614669" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -11359,7 +11833,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755162235400');
+var map = L.map('map-1793541526442614669');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -11474,7 +11948,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755162785682" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526443968607" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -11482,7 +11956,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755162785682');
+var map = L.map('map-1793541526443968607');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -11649,7 +12123,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754988212684" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526258823541" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -11657,7 +12131,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754988212684');
+var map = L.map('map-1793541526258823541');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -11691,7 +12165,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754985763230" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526253989148" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -11699,7 +12173,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754985763230');
+var map = L.map('map-1793541526253989148');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -11730,7 +12204,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755163161774" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526444689191" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -11738,7 +12212,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755163161774');
+var map = L.map('map-1793541526444689191');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -11835,7 +12309,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754985162978" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526251987281" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -11843,7 +12317,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754985162978');
+var map = L.map('map-1793541526251987281');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -11877,7 +12351,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754982498300" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526248508048" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -11885,7 +12359,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754982498300');
+var map = L.map('map-1793541526248508048');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -11916,7 +12390,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755163606478" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526445409726" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -11924,7 +12398,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755163606478');
+var map = L.map('map-1793541526445409726');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -12039,7 +12513,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755163891006" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526445730339" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -12047,7 +12521,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755163891006');
+var map = L.map('map-1793541526445730339');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -12127,7 +12601,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755164429167" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526446337905" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -12135,7 +12609,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755164429167');
+var map = L.map('map-1793541526446337905');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -12306,7 +12780,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755165169278" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526446928438" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -12314,7 +12788,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755165169278');
+var map = L.map('map-1793541526446928438');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -12478,7 +12952,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755165791760" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526447339910" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -12486,7 +12960,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755165791760');
+var map = L.map('map-1793541526447339910');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -12611,7 +13085,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754979409294" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526250119903" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -12619,7 +13093,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754979409294');
+var map = L.map('map-1793541526250119903');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -12653,7 +13127,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754981384070" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526245854103" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -12661,7 +13135,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754981384070');
+var map = L.map('map-1793541526245854103');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -12695,7 +13169,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754980704286" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526248207601" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -12703,7 +13177,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754980704286');
+var map = L.map('map-1793541526248207601');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -12734,7 +13208,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755167217125" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526448248082" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -12742,7 +13216,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755167217125');
+var map = L.map('map-1793541526448248082');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -13021,7 +13495,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754976124448" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526241449676" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -13029,7 +13503,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754976124448');
+var map = L.map('map-1793541526241449676');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -13063,7 +13537,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754976488408" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526245345361" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -13071,7 +13545,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754976488408');
+var map = L.map('map-1793541526245345361');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -13102,7 +13576,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755167936059" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526448995787" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -13110,7 +13584,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755167936059');
+var map = L.map('map-1793541526448995787');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -13305,7 +13779,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754968046173" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526229584994" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -13313,7 +13787,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754968046173');
+var map = L.map('map-1793541526229584994');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -13344,7 +13818,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755168490679" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526449506082" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -13352,7 +13826,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755168490679');
+var map = L.map('map-1793541526449506082');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -13488,7 +13962,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755169181373" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526449992693" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -13496,7 +13970,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755169181373');
+var map = L.map('map-1793541526449992693');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -13639,7 +14113,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755169661159" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526450441173" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -13647,7 +14121,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755169661159');
+var map = L.map('map-1793541526450441173');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -13783,7 +14257,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755170457612" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526451241005" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -13791,7 +14265,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755170457612');
+var map = L.map('map-1793541526451241005');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -14039,7 +14513,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755170837881" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526451637629" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -14047,7 +14521,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755170837881');
+var map = L.map('map-1793541526451637629');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -14155,7 +14629,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; Run&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1792942755171529456" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526452361600" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -14163,7 +14637,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942755171529456');
+var map = L.map('map-1793541526452361600');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -14347,7 +14821,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1792942754968280672" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793541526230346915" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -14355,7 +14829,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1792942754968280672');
+var map = L.map('map-1793541526230346915');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);

@@ -112,24 +112,37 @@ Estimular el segundo umbral anaerobico</div>
     <span class="session-type-badge type-fondazo">🏔 Fondo de Montaña</span>
   </div>
 <div class="session-info-grid">
+<div class="session-info-item"><a href="https://maps.app.goo.gl/VePkAJf7WQLtQmLD7" target="_blank" rel="noopener">📍 Inicio de Senda al Cerro López</a></div>
 <div class="session-info-item">⏰ <strong>SAB</strong>: ⏰ Salida 8:30hs</div>
+</div>
+<div class="session-objective"><strong>🎯 Objetivo:</strong> Sumar horas de montaña, trabajando en zonas suaves y adaptándose a los diversos terrenos que ofrece la montaña.</div>
+<div class="session-structure">
+<strong>Estructura de la sesión:</strong>
+<ol>
+<li>MA</li>
+<li>EC 10'</li>
+<li>Fondo según nivel</li>
+</ol>
 </div>
 <div class="levels-container">
 <div class="level-card level-other">
 <div class="level-card-header" style="color: #059669;">🟢 Nivel Inicial</div>
-<div></div>
+<div>Al Refugio López. Tiempo de corte 2hs. Bajada muy suave</div>
 </div>
 <div class="level-card level-other">
 <div class="level-card-header" style="color: #d97706;">🟡 Nivel Medio</div>
-<div></div>
+<div>Subida al Refugio López - Bajo hasta Roca Negra. Agarro el camino de autos y bajo hasta salir al Canopy de Colonia Suiza- Tomo la calle y vuelvo hasta el punto de inicio (panchería)</div>
 </div>
 <div class="level-card level-avanzado">
 <div class="level-card-header">
 <span>🔴 Nivel Avanzado</span>
 <span class="level-target-badge">🎯 TU TAREA</span>
 </div>
-<div style="font-weight: 500; line-height: 1.45;"></div>
+<div style="font-weight: 500; line-height: 1.45;">Subida al Refugio López - Bajo hasta Roca Negra. Agarro el camino de autos y bajo hasta el inicio de sendero que me lleva al Extremo Encantado- Subo por sendero hasta el Extremo Encantado y bajo por el mismo lugar hasta llegar al Canopy -Tomo la calle y vuelvo hasta el punto de inicio (panchería)</div>
 </div>
+</div>
+<div class="session-note">
+<strong>⚠️ Importante:</strong> Respetá el tiempo de corte para el regreso. Si no llegás al punto en el tiempo indicado, volvé con el grupo de barrido.<br>Llevar mínimo 1,5L de agua + electrolitos. Hidratación cada 20–25 min sin esperar a tener sed.<br>Para participar del fondo del sábado tenés que haber hecho al menos 2 sesiones de la semana. Si no, sumá rodaje suave.<br>Obligatorio: campera rompeviento, gorro, guantes, manta térmica, celular cargado, snack y silbato.<br>Primera capa técnica (no algodón), segunda capa abrigo, tercera capa rompeviento. El clima de montaña cambia rápido.<br>Registro de trekking obligatorio en la web de Parques Nacionales antes de la salida. Sin registro no se sale.
 </div>
 </div>
 

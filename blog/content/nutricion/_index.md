@@ -108,3 +108,11 @@ weight: 1
 - **Momento ideal:** Almuerzos o cenas de días de fuerza y descanso.
 - **Valores:** **~350 kcal | 38 g Proteína | 12 g Carbohidratos | 16 g Grasas**.
 - **Preparación:** 1 lata entera de atún al natural escurrido + 1 huevo duro picado + tomate, lechuga y cebolla con vinagreta emulsionada (1 cda. oliva + jugo de 1/2 limón + agua tibia + orégano batido con tenedor).
+
+### 🍳 4. Huevos Revueltos Proteicos y Cremosos con Tomate y Queso Magro
+- **Momento ideal:** Almuerzo ágil o merienda saciante post-gimnasio / días de descanso.
+- **Valores por porción:** **~310 kcal | 26 g Proteína | 6 g Carbohidratos | 19 g Grasas**.
+- **Ingredientes:** 3 huevos batidos (o 2 enteros + 1 clara), 1 tomate chico en cubitos salteado con rocío vegetal, 35g de queso magro (Port Salut light o ricota magra), sal, pimienta y orégano.
+- **Técnica clave:** Fuego mínimo; saltear el tomate 1 min, volcar los huevos y revolver constantemente. Retirar cuando sigan húmedos y brillantes agregando el queso para que se funda con el calor residual (cremosidad natural sin manteca ni crema).
+- **Adaptación:** En días de running de tarde, acompañar con 2 tostadas de pan o 1 taza de arroz blanco para sumar los carbohidratos previos a la montaña.
+

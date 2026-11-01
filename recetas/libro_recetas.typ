@@ -101,3 +101,17 @@
 #v(6pt)
 
 #include "deficit_light/ensalada_atun_huevo_emulsionada.typ"
+
+#v(16pt)
+
+// ==================== SECCIÓN 4: DESAYUNOS Y MERIENDAS ====================
+#text(size: 15pt, weight: "bold", fill: rgb("#3182ce"))[
+  4. Desayunos, Almuerzos Ágiles & Meriendas Proteicas
+]
+#text(size: 9pt, style: "italic", fill: rgb("#2c5282"))[
+  Opciones de rápida preparación con alto valor biológico para la rutina diaria de trabajo o post-fuerza.
+]
+#v(6pt)
+
+#include "desayunos_meriendas/huevos_revueltos_cremosos_tomate_queso.typ"
+

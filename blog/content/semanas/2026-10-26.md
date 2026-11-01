@@ -3,7 +3,7 @@ title: "Semana 24: 26 de Octubre de 2026"
 date: 2026-10-26
 categories: ["Planificación Semanal"]
 tags: ["Bandurrias", "Semana 24", "Avanzado"]
-weight: 1
+weight: 10
 ---
 
 <div class="week-summary-banner">

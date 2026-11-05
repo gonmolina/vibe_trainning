@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>WeightTraining on Trail &amp; Ultra Trail - Blog de Entrenamiento</title><link>https://gonmolina.github.io/vibe_trainning/tags/weighttraining/</link><description>Recent content in WeightTraining on Trail &amp; Ultra Trail - Blog de Entrenamiento</description><generator>Hugo</generator><language>es-es</language><lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://gonmolina.github.io/vibe_trainning/tags/weighttraining/index.xml" rel="self" type="application/rss+xml"/><item><title>Morning Weight Training</title><link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-30_20790458981/</link><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate><guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-30_20790458981/</guid><description>&lt;h2 id="-estadísticas-clave"&gt;📊 Estadísticas Clave&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>WeightTraining on Trail &amp; Ultra Trail - Blog de Entrenamiento</title><link>https://gonmolina.github.io/vibe_trainning/tags/weighttraining/</link><description>Recent content in WeightTraining on Trail &amp; Ultra Trail - Blog de Entrenamiento</description><generator>Hugo</generator><language>es-es</language><lastBuildDate>Tue, 03 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://gonmolina.github.io/vibe_trainning/tags/weighttraining/index.xml" rel="self" type="application/rss+xml"/><item><title>Morning Weight Training</title><link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-11-03_20841925377/</link><pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate><guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-11-03_20841925377/</guid><description>&lt;h2 id="-estadísticas-clave"&gt;📊 Estadísticas Clave&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tiempo en movimiento:&lt;/strong&gt; 67:58&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
+&lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
+&lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
+&lt;div id="map-1793900926254619922" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;script&gt;
+(function() {
+function initMap() {
+if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
+setTimeout(initMap, 100);
+return;
+}
+var map = L.map('map-1793900926254619922');
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
+}).addTo(map);
+new L.GPX("\/vibe_trainning\/entrenamientos\/2026-11-03_20841925377\/activity.gpx", {
+async: true,
+marker_options: {
+startIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png',
+endIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-end.png',
+shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-shadow.png'
+}
+}).on('loaded', function(e) {
+map.fitBounds(e.target.getBounds());
+}).addTo(map);
+}
+if (document.readyState === 'complete') {
+initMap();
+} else {
+window.addEventListener('load', initMap);
+}
+})();
+&lt;/script&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Generado automáticamente vía API de Strava.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Morning Weight Training</title><link>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-30_20790458981/</link><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate><guid>https://gonmolina.github.io/vibe_trainning/entrenamientos/2026-10-30_20790458981/</guid><description>&lt;h2 id="-estadísticas-clave"&gt;📊 Estadísticas Clave&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Distancia:&lt;/strong&gt; 0.0 km&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Desnivel Positivo:&lt;/strong&gt; 0 m 🏔️&lt;/li&gt;
@@ -9,7 +51,7 @@
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480554822494" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926257584641" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -17,7 +59,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480554822494');
+var map = L.map('map-1793900926257584641');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -51,7 +93,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480556317279" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926258949402" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -59,7 +101,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480556317279');
+var map = L.map('map-1793900926258949402');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -93,7 +135,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480592030201" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926290509291" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -101,7 +143,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480592030201');
+var map = L.map('map-1793900926290509291');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -135,7 +177,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480595853762" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926292270568" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -143,7 +185,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480595853762');
+var map = L.map('map-1793900926292270568');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -177,7 +219,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480598444506" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926300198373" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -185,7 +227,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480598444506');
+var map = L.map('map-1793900926300198373');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -219,7 +261,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480606302699" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926306560964" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -227,7 +269,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480606302699');
+var map = L.map('map-1793900926306560964');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -261,7 +303,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480607943151" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926308016093" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -269,7 +311,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480607943151');
+var map = L.map('map-1793900926308016093');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -303,7 +345,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480606225022" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926309414417" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -311,7 +353,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480606225022');
+var map = L.map('map-1793900926309414417');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -345,7 +387,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480606417387" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926309282222" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -353,7 +395,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480606417387');
+var map = L.map('map-1793900926309282222');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -387,7 +429,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480603790755" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926307531805" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -395,7 +437,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480603790755');
+var map = L.map('map-1793900926307531805');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -429,7 +471,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480603353667" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926305877076" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -437,7 +479,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480603353667');
+var map = L.map('map-1793900926305877076');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -471,7 +513,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480603410594" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926306036942" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -479,7 +521,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480603410594');
+var map = L.map('map-1793900926306036942');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -513,7 +555,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480602016851" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926305378120" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -521,7 +563,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480602016851');
+var map = L.map('map-1793900926305378120');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -555,7 +597,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480600946511" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926304231503" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -563,7 +605,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480600946511');
+var map = L.map('map-1793900926304231503');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -597,7 +639,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480594348017" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926293537428" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -605,7 +647,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480594348017');
+var map = L.map('map-1793900926293537428');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -636,7 +678,7 @@ window.addEventListener('load', initMap);
 &lt;li&gt;&lt;strong&gt;Tipo de actividad:&lt;/strong&gt; WeightTraining&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-mapa-y-recorrido"&gt;🗺️ Mapa y Recorrido&lt;/h2&gt;
-&lt;div id="map-1793576480688174905" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926397594116" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -644,7 +686,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480688174905');
+var map = L.map('map-1793900926397594116');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -713,7 +755,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480587975701" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926290594249" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -721,7 +763,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480587975701');
+var map = L.map('map-1793900926290594249');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -755,7 +797,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480586478752" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926287967857" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -763,7 +805,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480586478752');
+var map = L.map('map-1793900926287967857');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -797,7 +839,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480586295044" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926287946878" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -805,7 +847,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480586295044');
+var map = L.map('map-1793900926287946878');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -839,7 +881,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480584196013" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926284645424" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -847,7 +889,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480584196013');
+var map = L.map('map-1793900926284645424');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -881,7 +923,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480581772316" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926278998941" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -889,7 +931,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480581772316');
+var map = L.map('map-1793900926278998941');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -923,7 +965,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480570695989" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926271389867" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -931,7 +973,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480570695989');
+var map = L.map('map-1793900926271389867');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);
@@ -965,7 +1007,7 @@ window.addEventListener('load', initMap);
 &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /&gt;
 &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"&gt;&lt;/script&gt;
-&lt;div id="map-1793576480560336822" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
+&lt;div id="map-1793900926260025568" class="gpx-map" style="height: 450px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; background-color: #f8f8f8;"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 function initMap() {
@@ -973,7 +1015,7 @@ if (typeof L === 'undefined' || typeof L.GPX === 'undefined') {
 setTimeout(initMap, 100);
 return;
 }
-var map = L.map('map-1793576480560336822');
+var map = L.map('map-1793900926260025568');
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
 }).addTo(map);

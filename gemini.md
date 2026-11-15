@@ -27,15 +27,15 @@ Tiende a doblarse los tobillos con facilidad, aunque en general sin lesiones que
 
 # Objetivos Actuales de Carrera
 
-### 🎯 Objetivo 1 (Evaluación y Test de Estado de Forma): Desafío Wayra (El Bolsón)
-- **Fecha:** Domingo 13 de Diciembre de 2026 (~9 semanas).
-- **Distancia y Desnivel:** 35 km con +2200m D+ (carrera de perfil muy vertical: ~63 m D+/km).
-- **Foco principal:** Evaluar el estado de forma real post-gripe, respuesta de tobillos y cuádriceps en descensos técnicos, y calibrar de forma estricta la estrategia de nutrición en subidas sostenidas.
+### 🎯 Hito 1 (Evaluación Back-to-Back de Ultra Trail): Test 12–13 de Diciembre
+- **Fecha:** Sábado 12 y Domingo 13 de Diciembre de 2026 (Semana 30).
+- **Formato:** Bloque **Back-to-Back** en montaña (~40–44 km y +2,100–2,400 m D+ acumulados en 2 días): Sábado 26–28 km (+1,400–1,600 m D+) + Domingo 14–16 km (+600–800 m D+) con <20h de descanso. *(Se descartó correr Desafío Wayra 35k).*
+- **Foco principal:** Evaluar durabilidad muscular/articular bajo fatiga acumulada, estabilidad de tobillos en bajadas, estabilidad cardiovascular en Z2/Z3 y tolerancia digestiva (50–65 g HC/h) para confirmar viabilidad de los 70 km.
 
-### 🏔️ Objetivo 2 (Gran Meta en Evaluación): El Paso Austral
-- **Fecha:** Mediados de Febrero de 2027 (~18 semanas).
-- **Distancia:** 70 km.
-- **Criterio de decisión:** Se evaluará la confirmación y preparación específica para este ultra según el resultado, sensaciones y respuesta biomecánica en Desafío Wayra (13 de diciembre) y el bloque de volumen de enero.
+### 🏔️ Objetivo Principal (En Evaluación): El Paso Austral
+- **Fecha:** Mediados de Febrero de 2027.
+- **Distancia:** 70 km Ultra Trail.
+- **Criterio de decisión:** Se evaluará la confirmación y preparación específica para este ultra según los resultados, sensaciones, tolerancia digestiva y recuperación a las 48–72h tras el test **Back-to-Back del 12–13 de diciembre**, y la progresión de volumen en enero.
 
 
 # Protocolo Obligatorio para la Actualización del Plan Semanal

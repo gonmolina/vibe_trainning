@@ -1,20 +1,20 @@
 ---
-title: "Plan Maestro: Desafío Wayra 35k y El Paso Austral 70k"
+title: "Plan Maestro: Evaluación Back-to-Back y El Paso Austral 70k"
 date: 2026-10-09
 categories: ["Planes"]
-tags: ["Wayra", "PasoAustral", "Avanzado", "Bandurrias", "Fuerza", "Nutrición"]
+tags: ["PasoAustral", "BackToBack", "Avanzado", "Bandurrias", "Fuerza", "Nutrición"]
 type: "page"
 weight: 1
 ---
 
 # 🏔️ Plan Maestro Integral: Trail Running, Fuerza & Nutrición
-### Camino a Desafío Wayra (35k · +2200m D+) y El Paso Austral (70k Ultra)
+### Camino al Test Back-to-Back (12–13 Dic) y El Paso Austral (70k Ultra)
 
-**Atleta:** Gonzalo Molina (45 años | 75 kg)  
+**Atleta:** Gonzalo Molina (45 años | 75 kg meta)  
 **Grupo de Entrenamiento:** Bandurrias Trail Running (Bariloche) · **Nivel Avanzado**  
 **Días con el Grupo:** **Lunes, Miércoles y Sábados**  
 **Días de Gimnasio / Fuerza:** **Martes y Jueves** *(diseñado para no interferir con las sesiones clave)*  
-**Hito 1 (Test / Evaluación):** Desafío Wayra — El Bolsón (35 km · +2200m D+) · **13 de Diciembre de 2026**  
+**Hito 1 (Evaluación Back-to-Back):** Test de Durabilidad en Montaña (2 días seguidos) · **12 y 13 de Diciembre de 2026** *(reemplaza Desafío Wayra)*  
 **Hito 2 (Gran Meta en Evaluación):** El Paso Austral (70 km Ultra) · **Mediados de Febrero de 2027**  
 
 ---
@@ -35,9 +35,9 @@ Para maximizar el rendimiento en las sesiones de calidad de Bandurrias (Nivel Av
 
 ---
 
-## 🧗 BLOQUE 1: Desafío Wayra (35k · +2200m D+)
-*Duración:* 9 semanas (5 de Octubre al 13 de Diciembre de 2026)  
-*Características del circuito:* Muy quebrado y vertical (**~63 m D+/km**). Exige cuádriceps blindados para bajadas violentas, sóleos/gemelos fuertes para trepadas constantes, y tobillos blindados contra torceduras.
+## 🧗 BLOQUE 1: Construcción Aeróbica & Test Back-to-Back (Rumbo a 70k)
+*Duración:* 10 semanas (5 de Octubre al 13 de Diciembre de 2026)  
+*Objetivo del bloque:* Construir base de resistencia, blindar cuádriceps y tobillos contra el impacto excéntrico, y llegar en condiciones óptimas al **Test Back-to-Back (12–13 de diciembre)** para validar la viabilidad de los 70 km.
 
 ---
 
@@ -108,67 +108,66 @@ Para maximizar el rendimiento en las sesiones de calidad de Bandurrias (Nivel Av
 
 ---
 
-### Fase 3: Pico de Rendimiento & Simulacro Wayra (Semanas 27 y 28 · 16 al 29 de Noviembre)
+### Fase 3: Progresión de Fondo & Gut Training (Semanas 27 y 28 · 16 al 29 de Noviembre)
 
 #### 🏃 Running (Bandurrias Avanzado)
-* **Semana 27 (Pico de Volumen y Desnivel):**
-  * Fondo de prueba general: **25–28 km con +1800m a +2000m D+ (4h a 4h30m)**. Con chaleco de hidratación completo, comida de carrera y bastones.
-* **Semana 28 (Descarga Media):**
-  * Chispa muscular en lunes y miércoles con Bandurrias; recorte del fondo del sábado a 2h30m.
-* **Volumen:** 58–65 km/sem (Sem 27) ➔ 40–45 km/sem (Sem 28).
+* **Semana 27 (Sábado 21 Nov):**
+  * Fondo progresivo de montaña: **21–22 km con +1,100 m D+ (~3h45m)** en Z2/Z3 controlada, probando ingesta cada 35–40 min.
+* **Semana 28 (Sábado 28 Nov):**
+  * Fondo largo de construcción: **25–26 km con +1,300–1,400 m D+ (~4h20m)**. Con chaleco completo, bastones y alimentación de ultra.
+* **Entre semana:** Dosificar intensidad en pista/cuestas (no vaciar piernas si hay carga residual) para priorizar el volumen del sábado.
 
-#### 🏋️ Fuerza de Mantenimiento & Isometría (Martes y Jueves · 35–40 min)
-* **Objetivo:** Mantener el tono muscular sin generar fatiga residual ni agujetas.
+#### 🏋️ Fuerza de Mantenimiento & Estabilidad (Martes y Jueves · 35–40 min)
+* **Objetivo:** Mantener el tono muscular y la estabilidad de tobillo/rodilla sin generar fatiga residual ni agujetas antes de los fondos.
 * **Martes & Jueves:**
-  * Reducción de series (2 a 3 series en lugar de 4) con cargas medias-altas y sin llegar al fallo (RPE 6–7).
-  * Sentadillas isométricas en pared (Wall Sit) a 90° (3x45 seg con disco).
-  * Isometría de sóleos en escalón a una pierna (3x30 seg por lado).
-  * Movilidad activa de cadera y tobillos (psoas, rotadores, dorsiflexión).
+  * Reducción de series (2 a 3 series en lugar de 4) con cargas medias y sin llegar al fallo (RPE 6–7).
+  * Sentadillas isométricas en pared (Wall Sit) a 90° (3x45 seg con disco) y Step-downs controlados.
+  * Isometría de sóleos en escalón a una pierna (3x30 seg por lado) + propiocepción de tobillo.
+  * Movilidad activa de cadera y core anti-rotación.
 
-#### 🥗 Nutrición: Protocolo de Test de Carrera
-* Durante el simulacro de la Semana 27 se prueba **el menú idéntico al día del evento**:
-  * Desayuno de carrera 2h30m antes: avena con plátano y miel + café o tostadas con dulce de membrillo y queso magro (bajo en fibra y grasa para evitar molestias gastrointestinales).
-  * Consumo durante el test: mínimo 65g HC/h verificando tolerancia estomacal en subidas y bajadas empinadas.
+#### 🥗 Nutrición: Protocolo de Entrenamiento Digestivo
+* En los fondos de Semanas 27 y 28 se entrena el estómago para el bloque Back-to-Back y los 70k:
+  * Desayuno previo 2h antes: tostadas con dulce de batata/membrillo + 2 huevos revueltos o queso magro + infusión.
+  * Consumo durante el fondo: **50–65 g HC/hora** (geles, membrillo, pasas o isotónico) + **500 ml/h de agua con sales**.
   * Registro de sensaciones digestivas y energéticas.
 
 ---
 
-### Fase 4: Puesta a Punto / Tapering (Semanas 29 y 30 · 30 de Noviembre al 13 de Diciembre)
+### Fase 4: Descarga Parcial & Evaluación Back-to-Back (Semanas 29 y 30 · 30 de Noviembre al 13 de Diciembre)
 
-#### 🏃 Running (Bandurrias Avanzado)
-* **Semana 29 (Tapering -40%):** Calidad corta en Bandurrias (activaciones rápidas pero pocas series). Fondo del sábado recortado a 1h45m a ritmo muy cómodo.
-* **Semana 30 (Semana de Carrera Wayra):**
-  * **Lunes 7 Dic:** Trote muy suave de 30-35 min con el grupo + 4 rectas progresivas de 80m.
-  * **Miércoles 9 Dic:** 25-30 min muy suaves en llano con movilidad articular.
-  * **Viernes 11 y Sábado 12 Dic:** Descanso absoluto. Viaje a El Bolsón. Retiro de kits.
-  * **Domingo 13 de Diciembre:** 🏁 **DESAFÍO WAYRA 35K (+2200m D+)**.
+#### 🏃 Running (Bandurrias Avanzado + Fin de Semana Evaluativo)
+* **Semana 29 (Descarga parcial -35% para llegar fresco al test):**
+  * Lunes y miércoles en Bandurrias a intensidad controlada (RPE 7 máx).
+  * Fondo del sábado 5 Dic recortado a **16–18 km / +800 m D+ (~2h45m)** a ritmo cómodo Z2.
+* **Semana 30 (Semana del Test Back-to-Back):**
+  * **Lunes 7 y Miércoles 9 Dic:** Rodajes suaves de 35–45 min en llano o sendero fácil + movilidad articular (cero desgaste de cuádriceps).
+  * **Viernes 11 Dic:** Descanso absoluto + carga limpia de carbohidratos.
+  * **Sábado 12 de Diciembre (Día 1 del Test):** 🏔️ **Fondo Largo 26–28 km (+1,400–1,600 m D+ | ~4h30–5h00)** en Z2 controlada.
+  * **Domingo 13 de Diciembre (Día 2 del Test, con <20h de descanso):** 🏔️ **Segundo Fondo 14–16 km (+600–800 m D+ | ~2h30)** sobre piernas fatigadas.
 
-#### 🏋️ Fuerza (Ajuste de Tapering)
-* **Semana 29:** Solo una sesión suave el martes (fuerza isométrica y activación neuromuscular; suspender la sesión del jueves).
-* **Semana 30:** **CERO PESAS.** Solo estiramientos dinámicos suaves y movilidad de tobillos/caderas.
+#### 🏋️ Fuerza (Ajuste Pre-Test)
+* **Semana 29:** Solo 1–2 sesiones suaves de activación, core y movilidad; evitar excéntricos pesados de piernas.
+* **Semana 30:** **CERO PESAS en tren inferior.** Solo movilidad de tobillos/caderas y activación suave.
 
-#### 🥗 Protocolo de Carga de Carbohidratos (Pre-Carrera Wayra)
-* **Viernes 11 y Sábado 12 de Diciembre:**
-  * Carga de hidratos: **8–9 g HC/kg de peso corporal** (~600–650g HC/día).
-  * Reducir fibras (verduras crudas, legumbres, harinas integrales) y grasas para acelerar el vaciado gástrico y evitar problemas estomacales el domingo.
-  * Fuentes clave: arroz blanco, pasta, papas al vapor, frutas maduras, miel, pan blanco, jugos de fruta.
-  * Hidratación abundante con electrolitos suaves a lo largo de las 48hs previas.
-* **Domingo 13 (Día de Carrera):**
-  * **Desayuno (6:00 hs):** 2 tostadas de pan blanco con mermelada/membrillo + 1 plátano + café ligero + 300 ml de isotónico.
-  * **15 min antes de largar:** 1 gel energético con un sorbo de agua.
-  * **En carrera:** 60–70g HC/hora + 1 pastilla de sales cada 60 min.
+#### 🥗 Protocolo Nutricional del Fin de Semana Back-to-Back
+* **Viernes 11 de Diciembre:**
+  * Cena de carga limpia de carbohidratos (pasta/ñoquis/arroz blanco con proteína magra, baja fibra) e hidratación con sales.
+* **Sábado 12 (Día 1) y Domingo 13 (Día 2):**
+  * **En montaña:** **50–65 g HC/hora** + 500 ml/h con electrolitos.
+  * **Ventana clave entre Día 1 y Día 2 (sábado tarde/noche):** Al terminar el sábado, reponer de inmediato con proteína (30g) + carbohidratos de rápida absorción (arroz, papa, banana, dulce de batata) y mucha hidratación con sodio para evaluar la capacidad real de recuperación en menos de 20 horas.
 
 ---
 
-## 🚦 Hito de Decisión: Evaluación Post-Wayra (14 al 20 de Diciembre)
+## 🚦 Hito de Decisión: Evaluación Post Back-to-Back (14 al 20 de Diciembre)
 
-Durante la semana posterior a El Bolsón, evaluaremos tres parámetros determinantes antes de confirmar la largada de los 70 km de El Paso Austral:
+Durante la semana posterior al 12–13 de diciembre, evaluaremos cuatro parámetros objetivos ("Pasa / No Pasa") antes de confirmar la largada de los 70 km de El Paso Austral:
 
-1. **Estado Articular & Tendinoso:** Estado de tobillos (cero esguinces/inestabilidad), tendones de Aquiles y rodillas.
-2. **Digestión & Metabolismo en Esfuerzo:** Si el estómago asimiló los nutrientes durante las 4h30–5h30 de carrera sin náuseas ni calambres.
-3. **Recuperación Neuromuscular:** Capacidad de reanudar trotes suaves sin dolor a los 5–6 días.
+1. **Estabilidad Cardiovascular (Durabilidad):** En las últimas 2 horas de esfuerzo y durante el domingo, la FC en subida controlada se mantiene estable en Z2/Z3 baja sin deriva cardíaca excesiva.
+2. **Estado Muscular & Articular:** Poder seguir trotando en las bajadas del último tercio del sábado y el domingo sin bloqueo de cuádriceps ni dolor puntual en tobillos, Aquiles o rodillas.
+3. **Digestión & Metabolismo:** Asimilación de 50–65 g HC/hora + sales durante 5+ horas sin náuseas ni rechazo estomacal.
+4. **Recuperación a las 48–72 horas:** Capacidad de retomar un trote suave de 40–50' el martes/miércoles siguiente sin fatiga sistémica pesada ni inflamación articular persistente.
 
-*Si el balance es positivo, activamos el Bloque 2 para El Paso Austral.*
+*Si el balance es positivo, activamos el Bloque 2 de volumen específico para El Paso Austral 70k.*
 
 ---
 

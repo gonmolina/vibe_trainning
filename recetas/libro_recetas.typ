@@ -5,7 +5,7 @@
     if here().page() > 1 [
       #text(size: 8pt, fill: rgb("#718096"))[
         *Recetario Deportivo Periodizado* · Gonzalo Molina · Trail Running & Descenso de Peso (81 kg #sym.arrow 75 kg)
-        #h(1fr) Desafío Wayra 35k
+        #h(1fr) El Paso Austral 70k
       ]
       #line(length: 100%, stroke: 0.5pt + rgb("#e2e8f0"))
     ]
@@ -37,7 +37,7 @@
   ]
   #v(4pt)
   #text(size: 9.5pt, fill: rgb("#4a5568"))[
-    *Atleta:* Gonzalo Molina · *Objetivo:* Desafío Wayra 35k (+2200m D+) & El Paso Austral 70k
+    *Atleta:* Gonzalo Molina · *Objetivo:* Test Back-to-Back (Dic) & El Paso Austral 70k (Feb 2027)
   ]
 ]
 

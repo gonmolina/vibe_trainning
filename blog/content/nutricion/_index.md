@@ -6,12 +6,12 @@ weight: 1
 ---
 
 # 🥗 Plan Nutricional Periodizado para Trail Running
-### Camino a Desafío Wayra 35k (+2200m D+) y El Paso Austral 70k
+### Camino al Test Back-to-Back (12–13 Dic) y El Paso Austral 70k (Feb 2027)
 
 **Atleta:** Gonzalo Molina (45 años)  
 **Peso Oficial de Arranque:** **80.1 kg** *(27 de Octubre de 2026)*  
-**Meta Desafío Wayra (13 Dic):** **75.0 – 76.0 kg** *(~5 kg de grasa corporal)*  
-**Ventana Temporal:** 6 semanas restantes (~600 a 700 g / semana)  
+**Meta de Peso (Diciembre / Enero):** **75.0 – 76.0 kg** *(~5 kg de grasa corporal)*  
+**Ventana Temporal:** Descenso progresivo (~500–600 g / semana sin comprometer recuperación en fondos)  
 **Suplementación Base:** **5 g diarios de Creatina** (fuerza en cuestas y protección muscular anti-catabólica).
 
 ---
@@ -86,7 +86,7 @@ weight: 1
   - **40–50 g HC/hora** (1 gel con cafeína cada 40–45 min, barritas o dulce de membrillo).
   - Pastilla de cafeína según la exigencia.
   - Hidratación constante: **500 ml/hora de agua con sales minerales/electrolitos**.
-  - *Nota:* En la tirada larga no se hace restricción calórica: el gasto supera las 1.800 kcal y el objetivo es acostumbrar al estómago al ritmo de carrera de Wayra.
+  - *Nota:* En la tirada larga no se hace restricción calórica: el gasto supera las 1.800 kcal y el objetivo es acostumbrar al estómago al ritmo e ingesta de ultra trail (50–65 g HC/h) rumbo al Test Back-to-Back y El Paso Austral 70k.
 
 ---
 

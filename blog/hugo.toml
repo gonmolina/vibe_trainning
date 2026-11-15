@@ -6,7 +6,7 @@ theme = 'PaperMod'
 [params]
   env = 'development'
   title = 'Trail & Ultra Trail'
-  description = 'Seguimiento de entrenamiento: Desafío Wayra 35k y El Paso Austral 70k.'
+  description = 'Seguimiento de entrenamiento: Evaluación Back-to-Back y El Paso Austral 70k.'
   ShowCodeCopyButtons = true
   ShowReadingTime = true
   ShowShareButtons = false
@@ -16,7 +16,7 @@ theme = 'PaperMod'
   
   [params.homeInfoParams]
     Title = "Trail & Ultra Trail 🏔️"
-    Content = "Blog de seguimiento y entrenamiento de montaña con Bandurrias Trail Running Team (Bariloche). Planes semanales, sincronización de Strava y bitácora rumbo a Desafío Wayra y El Paso Austral."
+    Content = "Blog de seguimiento y entrenamiento de montaña con Bandurrias Trail Running Team (Bariloche). Planes semanales, sincronización de Strava y bitácora rumbo a El Paso Austral 70k."
 
 [markup.goldmark.renderer]
   unsafe = true
